@@ -144,9 +144,10 @@ def compile_and_fit(df,model, config):
     epochs=epochs, batch_size=batch_size, shuffle=False) 
     metrics = model.evaluate(X_test, y_test)
     hist = history
-    loss = metrics[2]
+    loss_mae = metrics[1]
+    loss_rmse = metrics[2]
     plot_learning_curves(history.history['loss'], history.history['val_loss']) 
-    return  hist, loss
+    return  hist, loss_mae, loss_rmse
 
 #Recebe uma config por vez e passa para o model que por sua vez é passado para o compile_and_fit para o treino e verificação da performance
 def call_models(df, config, n_repeats=1):
@@ -156,9 +157,9 @@ def call_models(df, config, n_repeats=1):
     to_supervised(df, timesteps)
     #model = build_model(config) #Passar aqui as diferentes arquiteturas de models criadas
     model = build_model_2(config)
-    hist, loss = compile_and_fit(df,model, config)
-    print(f' Model: {key} Loss: {loss:.4f}')
-    return (key, loss)
+    hist, loss_mae, loss_rmse = compile_and_fit(df,model, config)
+    print(f' Model: {key} mae: {loss_mae:.4f} rmse: {loss_rmse:.4f}')
+    return (key, loss_mae, loss_rmse)
 
 # Envia uma configuracao por vez para ser executada e recebe a configuracao com sua loss
 #As configuracoes e loss são ordenadas em uma lista ex Configuracao: [3, 64, 40, 7]Loss: 0.386593371629
@@ -259,7 +260,7 @@ df_1 = df_D.dropna(how='all', axis=0)
 multisteps = 5 #number of days to forecast - we will forecast the next 5 days
 cv_splits = 3
 
-#Definir diferentes conjuntos de configurações para o model 
+#Definir diferentes conjuntos de configurações para o model (neste exemplos existem 12 config possiveis)
 timestep = [5,7]
 h_neurons = [64, 128]
 epochs = [10, 20]
@@ -273,8 +274,8 @@ scores = grid_search(df_1,cfg_list) #Recebe uma lista de tuplas ordenadas com a 
 print("                                                                  ")
 print("-----------------------Modelos Testados--------------------------" )
 print("                                                                  ")
-for cfg, loss in scores:
-    print(f'Configuracao: {cfg}\n Loss: {loss:.4f}')
+for cfg, loss_mae, loss_rmse in scores:
+    print(f'Configuracao: {cfg}\n mae: {loss_mae:.4f}\n rmse: {loss_rmse:.4f}')
     
 '''
 forecasts = forecast(model, df_D_Uni, timesteps, multisteps, scaler)
