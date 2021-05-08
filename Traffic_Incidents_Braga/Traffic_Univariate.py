@@ -260,7 +260,7 @@ df_1 = df_D.dropna(how='all', axis=0)
 multisteps = 5 #number of days to forecast - we will forecast the next 5 days
 cv_splits = 3
 
-#Definir diferentes conjuntos de configurações para o model (neste exemplos existem 12 config possiveis)
+#Definir diferentes conjuntos de configurações para o model 
 timestep = [5,7]
 h_neurons = [64, 128]
 epochs = [10, 20]
