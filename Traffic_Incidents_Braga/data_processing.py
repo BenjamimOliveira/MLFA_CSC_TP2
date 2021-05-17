@@ -80,7 +80,7 @@ def to_supervised(df, timesteps):
 Prepare the training, validation and testing sets from a configuration
 '''
 def prepare_train(df, config):
-    timesteps, h_neurons, epochs, batch_size = config
+    timesteps = config[0]
     X, y = to_supervised(df, timesteps)
     # time series cross validator
     tscv = TimeSeriesSplit(n_splits=cv_splits)
