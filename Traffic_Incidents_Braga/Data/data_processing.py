@@ -33,16 +33,34 @@ def to_univariate(df):
     return df_uni
 
 '''
+Convert data to multiariate, using multiple features (incident, length_in_meters, latitude, longitude) as input
+'''
+def to_multivariate(df):
+    df_uni = df.drop(columns=['cause_of_incident', 'city_name', 'description', 'cause_of_incident', 'from_road', 'to_road', 
+                              'affected_roads', 'incident_category_desc','magnitude_of_delay_desc','delay_in_seconds', ])
+    return df_uni
+'''
 Prepare data to have the number of daily incidents
 '''
-def to_daily(df):
-    df_uni = to_univariate(df)
-    df_uni['incident_date'] = df_uni['incident_date'].str[:10]                # delete the last 10 characters
-    df_uni['Incidents'] = pd.DataFrame([1 for x in range(len(df_uni.index))]) # create a column with 1 to sum the incidents per day
-    df_uni = df_uni.set_index('incident_date')                                # set the column incident_date to index
-    df_uni.index = pd.to_datetime(df_uni.index)                               # convert the date in index from string to Date type
-    daily_groups = df_uni.resample('D')                                       # sum groupy by day
-    daily_data = daily_groups.sum()
+def to_daily_uni_multi(method, df):
+    if method == 'univariate':
+        df_uni = to_univariate(df)
+        df_uni['incident_date'] = df_uni['incident_date'].str[:10]                # delete the last 10 characters
+        df_uni['Incidents'] = pd.DataFrame([1 for x in range(len(df_uni.index))]) # create a column with 1 to sum the incidents per day
+        df_uni = df_uni.set_index('incident_date')                                # set the column incident_date to index
+        df_uni.index = pd.to_datetime(df_uni.index)                               # convert the date in index from string to Date type
+        daily_groups = df_uni.resample('D')                                       # sum groupy by day
+        daily_data = daily_groups.sum()
+    elif method == 'multivariate':
+         df_uni = to_multivariate(df)
+         df_uni['incident_date'] = df_uni['incident_date'].str[:10]                # delete the last 10 characters
+         df_uni['Incidents'] = pd.DataFrame([1 for x in range(len(df_uni.index))]) # create a column with 1 to sum the incidents per day
+         df_uni = df_uni.set_index('incident_date')                                # set the column incident_date to index
+         df_uni.index = pd.to_datetime(df_uni.index)                               # convert the date in index from string to Date type
+         daily_groups = df_uni.resample('D')                                       # sum groupy by day
+         daily_data_1 = daily_groups['Incidents'].sum()
+         daily_data_2 = daily_groups['length_in_meters', 'latitude','longitude'].median() #Median by date
+         daily_data = pd.concat([daily_data_1, daily_data_2], axis=1) #Concatenate incident sum, length_in_temers, latitude, longitude median
     return daily_data
 
 '''
@@ -51,15 +69,22 @@ Deal with missing values in the data
 def missing_values(df):
     df = df.replace(0, np.nan)        # replace instances with 0 incidents with NaN
     df = df.dropna(how='all', axis=0) # remove all instances with NaN
+    #Executar Interpolate (comentar as 2 primeiras linhas e descomentar as 2 ultimas)
+    #df = df.replace(0, np.nan)
+    #df = df.interpolate(method='linear', limit_direction='forward').astype(int)
     return df
 
 '''
 Normalize the data to the range [-1, 1]
 '''
-def data_normalization(df, norm_range=(-1,1)):
+def data_normalization(method, df, norm_range=(-1,1)):
     scaler = MinMaxScaler(feature_range=norm_range)
-    df[['Incidents']] = scaler.fit_transform(df[['Incidents']])
+    if method == 'multivariate':
+        df[['Incidents','length_in_meters', 'latitude','longitude']] = scaler.fit_transform(df) #Multivariate
+    elif method == 'univariate':
+        df[['Incidents']] = scaler.fit_transform(df) #Univariate
     return scaler
+
 
 '''
 Convert the data to supervised
