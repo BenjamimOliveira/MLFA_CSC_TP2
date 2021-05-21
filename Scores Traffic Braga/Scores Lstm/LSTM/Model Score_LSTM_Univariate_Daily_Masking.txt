@@ -1,0 +1,13 @@
+def build_lstm(config):
+    activations, timesteps, features, h_neurons, = config[0:4]
+    #features=4
+    model = tf.keras.models.Sequential()
+    model.add(tf.keras.layers.Masking(mask_value=0,
+                                  input_shape=(timesteps, features)))
+    model.add(tf.keras.layers.LSTM(h_neurons))
+    model.add(tf.keras.layers.Dense(h_neurons, activation=activatons))
+    model.add(tf.keras.layers.Dense(1, activation='linear'))
+    # show model summary (and save it as PNG)
+    tf.keras.utils.plot_model(model, 'Traffic_lstm.png', show_shapes=True)
+    return model
+
