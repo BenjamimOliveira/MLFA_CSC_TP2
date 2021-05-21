@@ -23,9 +23,8 @@ def rmse(y_true, y_pred):
 '''
 Build a CNN model from a configuration
 '''
-def build_cnn(config):
+def build_cnn(config, features):
     timesteps, _, _, filters, kernel_size, pool_size = config
-    features = 1
     # using the Functional API
     inputs = tf.keras.layers.Input(shape=(timesteps, features)) 
     # microarchitecture
@@ -46,7 +45,6 @@ Compile model and fit it to the data
 '''
 def compile_and_fit(df, model, config):
     _, epochs, batch_size, _, _, _ = config
-    univariate = 1
     # compile the model
     model.compile(loss=rmse, optimizer=tf.keras.optimizers.Adam(), metrics=['mae', rmse])
     X_train, y_train, X_val, y_val, X_test, y_test = prepare_train(df, config)
@@ -73,11 +71,10 @@ def generate_configs(timesteps, epochs, batch_size, filters, kernel_size, pool_s
 '''
 Check the training performances from a model for a configuration
 '''
-def call_models(df, config, n_repeats=1):
+def call_models(df, config, features):
     timesteps, epochs, batch_size, filters, kernel_size, pool_size = config
-    univariate = 1
     to_supervised(df, timesteps)
-    model = build_cnn(config)
+    model = build_cnn(config, features)
     hist, loss, loss_mae, loss_rmse = compile_and_fit(df, model, config)
     print('Configuration: timesteps=%s, epochs=%s, batch_size=%s, filters=%s, kernel_size=%s, pool_size=%s' % (timesteps, epochs, batch_size, filters, kernel_size, pool_size))
     print('loss:', loss)
@@ -88,28 +85,45 @@ def call_models(df, config, n_repeats=1):
 '''
 Train a model for each configuration and sort the configurations by performance
 '''
-def grid_search(df, configs):
+def grid_search(df, configs, features):
     # evaluate configs
     scores = []
     for config in configs:
-        scores.append(call_models(df, config))
+        scores.append(call_models(df, config, features))
     # sort configs by error in ascending order
     scores.sort(key=lambda tup: tup[1])
     return scores
 
 '''
+Single-step forecast
+'''
+def forecast_single(model, df, timesteps, scaler):
+    input_seq = df[-timesteps:].values # get the last known sequence
+    inp = input_seq
+    inp = inp.reshape(-1, 7, 1)     # reshape input
+    prediction = model.predict(inp) # predict number of incidents
+    prediction_scaled = scaler.inverse_transform(prediction) # denormalize prediction
+    prediction_scaled = prediction_scaled[0][0]
+    return prediction_scaled
+
+'''
 Recursive multi-step forecast
 '''
-def forecast(model, df, timesteps, multisteps, scaler):
+def forecast_multi(model, df, timesteps, multisteps, scaler):
     input_seq = df[-timesteps:].values # get the last known sequence
     inp = input_seq
     forecasts = list()
     for step in range(1, multisteps+1):
-        print(inp.shape)
-        prediction = model.predict(inp)
-        forecasts.append(prediction)
-        inp = np.append(inp, [[prediction]], axis=0) # insert prediction to the sequence
-        np.delete(inp, 0)                            # remove oldest value of the sequence
+        inp = inp.reshape(-1, 7, 1)     # reshape input
+        prediction = model.predict(inp) # predict number of incidents
+
+        prediction_scaled = scaler.inverse_transform(prediction) # denormalize prediction
+        prediction_scaled = prediction_scaled[0][0]
+        forecasts.append(prediction_scaled)
+
+        temp = np.concatenate((inp[0], prediction)) # insert prediction to the sequence
+        temp2 = np.delete(temp, 0)                  # remove oldest value of the sequence
+        inp = temp2.reshape((7, 1))                 # reshape input
     return forecasts
 
 '''
