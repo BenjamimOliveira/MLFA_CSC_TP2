@@ -24,7 +24,7 @@ def getData():
     data['date_time'] = pd.to_datetime(data.date_time, format='%Y-%m-%d %H:%M:%S', errors='raise')
 
     # drop unwanted columns
-    unwanted_cols = ['weather_description', 'rain_1h', 'snow_1h'] 
+    unwanted_cols = ['weather_description', 'rain_1h', 'snow_1h', 'weather_main'] 
     data = data.drop(unwanted_cols, axis=1)
 
     # sort by date
@@ -128,7 +128,10 @@ def preencherGaps(data):
     return data
 
 def encodeWeather(data):
-    
+    #onehot_data = OneHotEncoder(sparse=False)
+    #onehot_data = onehot_data.fit_transform(int_data)
+    print('-----------------------------')
+    print(type(data))
     return data
 
 # 0 - weekday | 1 - weekend
@@ -160,6 +163,6 @@ def __main__():
     
     data['clouds_all'] = data['clouds_all'].astype(int)
     data['traffic_volume'] = data['traffic_volume'].astype(int)
-    data.to_csv('../data/metro_processed.csv', index=False)
+    data.to_csv('../data/metro_processed_multi.csv', index=False)
 
 __main__()
