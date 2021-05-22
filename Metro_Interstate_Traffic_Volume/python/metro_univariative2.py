@@ -11,7 +11,7 @@ np.random.seed(91190530)
 tf.keras.backend.clear_session()
 
 # -- Carregar dados processados
-def loadData():
+def loadData(path="../data/metro_processed.csv"):
     # dtypes for csv fields
     dtypes = {
         'holiday':int,
@@ -26,7 +26,7 @@ def loadData():
     parse_dates = ['date_time']
 
     # read csv
-    data = pd.read_csv("../data/metro_processed.csv", dtype=dtypes, parse_dates=parse_dates, index_col=False)
+    data = pd.read_csv(path, dtype=dtypes, parse_dates=parse_dates, index_col=False)
     data['date_time'] = pd.to_datetime(data.date_time, format='%Y-%m-%d %H:%M:%S', errors='raise')
 
     # drop unwanted columns
@@ -107,8 +107,8 @@ def createModel3(timesteps=7, filters=16, kernel_size=5, pool_size=2,features=1)
     return cnnModel
 
 # -- root mean squared error or rmse
-def rmse(actual, predicted):
-    return tf.keras.backend.sqrt(tf.keras.backend.mean(tf.keras.backend.square(actual - predicted)))
+def rmse(y_true, y_pred):
+    return tf.keras.backend.sqrt(tf.keras.backend.mean(tf.keras.backend.square(y_true - y_pred)))
 
 def grid_generate(neurons, timesteps, batch_size, l_rate):
     configs = []
@@ -182,7 +182,7 @@ def massTrain(neurons, timesteps, batch_size, l_rate, data):
     train_df, val_df, test_df = splitData(data, 0.7, 0.2)
     
 
-    models = ['gru', 'cnn']
+    models = ['cnn']
     print('--------------------')
     print(type(models))
     print('--------------------')
@@ -209,7 +209,7 @@ def massTrain(neurons, timesteps, batch_size, l_rate, data):
         if m == 'gru':
             model = createModel2(config[0], config[1])
         if m == 'cnn':
-            model = createModel(config[1])
+            model = createModel3(config[1])
 
         compile_and_fit((X,y), (valX, valy), (testX,testy), model, config, save=True, str=m)
         # guardar modelo
@@ -218,25 +218,26 @@ def massTrain(neurons, timesteps, batch_size, l_rate, data):
 # -------------------------------------------------
 # ------------------- MAIN ------------------------
 # -------------------------------------------------
-percTrain = 0.7
-neurons = [16,32,64]
-timesteps = [12,24]
-batch_size = [16,32,64]
-l_rate = [0.01,0.001]
+def main():
+    percTrain = 0.7
+    neurons = [16,32,64]
+    timesteps = [6,12,24]
+    batch_size = [16,32,64]
+    l_rate = [0.1,0.01,0.001]
 
-# - Carrega dados -
-data = loadData()
-# - Normalização dos dados -
-scaler = dataNorm()
+    # - Carrega dados -
+    data = loadData()
+    # - Normalização dos dados -
+    scaler = dataNorm()
 
-# -- Treino em massa
-massTrain(neurons=neurons, timesteps=timesteps, batch_size=batch_size, l_rate=l_rate, data=data)
+    # -- Treino em massa
+    massTrain(neurons=neurons, timesteps=timesteps, batch_size=batch_size, l_rate=l_rate, data=data)
 
 
-# - generate grid
-#grid = grid_generate(neurons, timesteps, batch_size, l_rate)
+    # - generate grid
+    #grid = grid_generate(neurons, timesteps, batch_size, l_rate)
 
-# - search and train the grid
-#scores = grid_search(data, grid,'teste')
-#print(scores)
+    # - search and train the grid
+    #scores = grid_search(data, grid,'teste')
+    #print(scores)
 
