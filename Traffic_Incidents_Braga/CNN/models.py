@@ -1,3 +1,4 @@
+from typing import Sequence
 import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt
@@ -11,8 +12,6 @@ tf.random.set_seed(91195003)
 np.random.seed(91190530)
 # for an easy reset backend session state 
 tf.keras.backend.clear_session()
-
-multisteps = 5 # number of days to forecast (we will forecast the next 5 days)
 
 '''
 Define loss function (root mean square error)
@@ -37,7 +36,7 @@ def build_cnn(config, features):
     # the model
     cnnModel = tf.keras.Model(inputs=inputs, outputs=outputs, name='cnn_model') 
     # show model summary (and save it as PNG)
-    tf.keras.utils.plot_model(cnnModel, 'Traffic_snn.png', show_shapes=True) 
+    #tf.keras.utils.plot_model(cnnModel, 'Traffic_snn.png', show_shapes=True) 
     return cnnModel
 
 '''
@@ -71,7 +70,7 @@ def generate_configs(timesteps, epochs, batch_size, filters, kernel_size, pool_s
 '''
 Check the training performances from a model for a configuration
 '''
-def call_models(df, config, features):
+def call_model(df, config, features):
     timesteps, epochs, batch_size, filters, kernel_size, pool_size = config
     to_supervised(df, timesteps)
     model = build_cnn(config, features)
@@ -80,7 +79,7 @@ def call_models(df, config, features):
     print('loss:', loss)
     print('mae:', loss_mae)
     print('rmse:', loss_rmse)
-    return (str(config), loss_mae, loss_rmse)
+    return model, (str(config), loss_mae, loss_rmse)
 
 '''
 Train a model for each configuration and sort the configurations by performance
@@ -89,42 +88,55 @@ def grid_search(df, configs, features):
     # evaluate configs
     scores = []
     for config in configs:
-        scores.append(call_models(df, config, features))
+        scores.append(call_model(df, config, features)[1])
     # sort configs by error in ascending order
     scores.sort(key=lambda tup: tup[1])
     return scores
 
 '''
-Single-step forecast
+Univariate single-step forecast
 '''
 def forecast_single(model, df, timesteps, scaler):
-    input_seq = df[-timesteps:].values # get the last known sequence
-    inp = input_seq
-    inp = inp.reshape(-1, 7, 1)     # reshape input
-    prediction = model.predict(inp) # predict number of incidents
+    sequence = df[-timesteps:].values        # get the last known sequence
+    inp = sequence.reshape(-1, timesteps, 1) # reshape input
+    prediction = model.predict(inp)          # predict number of incidents
+
     prediction_scaled = scaler.inverse_transform(prediction) # denormalize prediction
     prediction_scaled = prediction_scaled[0][0]
+
     return prediction_scaled
 
 '''
-Recursive multi-step forecast
+Univariate recursive multi-step forecast
 '''
 def forecast_multi(model, df, timesteps, multisteps, scaler):
-    input_seq = df[-timesteps:].values # get the last known sequence
-    inp = input_seq
+    sequence = df[-timesteps:].values # get the last known sequence
     forecasts = list()
     for step in range(1, multisteps+1):
-        inp = inp.reshape(-1, 7, 1)     # reshape input
-        prediction = model.predict(inp) # predict number of incidents
+        inp = sequence.reshape(-1, timesteps, 1) # reshape input
+        prediction = model.predict(inp)          # predict number of incidents
 
-        prediction_scaled = scaler.inverse_transform(prediction) # denormalize prediction
-        prediction_scaled = prediction_scaled[0][0]
-        forecasts.append(prediction_scaled)
+        forecast = scaler.inverse_transform(prediction) # denormalize prediction
+        forecast = forecast[0][0]
+        forecasts.append(forecast)
 
         temp = np.concatenate((inp[0], prediction)) # insert prediction to the sequence
-        temp2 = np.delete(temp, 0)                  # remove oldest value of the sequence
-        inp = temp2.reshape((7, 1))                 # reshape input
+        temp = np.delete(temp, 0)                   # remove oldest value of the sequence
+        sequence = temp.reshape((timesteps, 1))     # reshape sequence 
     return forecasts
+
+'''
+Multivariate single-step forecast
+'''
+def forecast_single_multi(model, df, timesteps, features, scaler):
+    sequence = df[-timesteps:].values               # get the last known sequence
+    inp = sequence.reshape(-1, timesteps, features) # reshape input
+    prediction = model.predict(inp)                 # predict number of incidents
+
+    temp = np.tile(prediction, (1, 4))    # duplicate prediction to get the right shape to denormalize
+    temp = scaler.inverse_transform(temp) # denormalize prediction
+    forecast = temp[0][0]
+    return forecast
 
 '''
 Plot learning curves

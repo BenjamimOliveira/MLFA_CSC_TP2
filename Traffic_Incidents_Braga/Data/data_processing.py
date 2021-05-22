@@ -39,6 +39,7 @@ def to_multivariate(df):
     df_uni = df.drop(columns=['cause_of_incident', 'city_name', 'description', 'cause_of_incident', 'from_road', 'to_road', 
                               'affected_roads', 'incident_category_desc','magnitude_of_delay_desc','delay_in_seconds', ])
     return df_uni
+
 '''
 Prepare data to have the number of daily incidents
 '''
@@ -59,8 +60,8 @@ def to_daily_uni_multi(method, df):
          df_uni.index = pd.to_datetime(df_uni.index)                               # convert the date in index from string to Date type
          daily_groups = df_uni.resample('D')                                       # sum groupy by day
          daily_data_1 = daily_groups['Incidents'].sum()
-         daily_data_2 = daily_groups['length_in_meters', 'latitude','longitude'].median() #Median by date
-         daily_data = pd.concat([daily_data_1, daily_data_2], axis=1) #Concatenate incident sum, length_in_temers, latitude, longitude median
+         daily_data_2 = daily_groups['length_in_meters', 'latitude','longitude'].median() # Median by date
+         daily_data = pd.concat([daily_data_1, daily_data_2], axis=1) # Concatenate incident sum, length_in_temers, latitude, longitude median
     return daily_data
 
 '''
@@ -80,11 +81,18 @@ Normalize the data to the range [-1, 1]
 def data_normalization(method, df, norm_range=(-1,1)):
     scaler = MinMaxScaler(feature_range=norm_range)
     if method == 'multivariate':
-        df[['Incidents','length_in_meters', 'latitude','longitude']] = scaler.fit_transform(df) #Multivariate
+        df[['Incidents','length_in_meters', 'latitude','longitude']] = scaler.fit_transform(df) # Multivariate
     elif method == 'univariate':
-        df[['Incidents']] = scaler.fit_transform(df) #Univariate
+        df[['Incidents']] = scaler.fit_transform(df) # Univariate
     return scaler
 
+'''
+Denormalize the data from a scaler
+'''
+def data_denormalization(method, df, scaler):
+    values = scaler.inverse_transform(df)
+    values = values.flatten()
+    return values.astype(int)
 
 '''
 Convert the data to supervised
