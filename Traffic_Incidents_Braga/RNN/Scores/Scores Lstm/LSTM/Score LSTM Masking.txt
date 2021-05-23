@@ -1,0 +1,2879 @@
+Configuracao: [3, 1, 32, 'relu', 50, 10]
+ loss: 0.2971
+ mae: 0.2235
+ rmse: 0.3108
+Configuracao: [3, 1, 32, 'relu', 30, 10]
+ loss: 0.2972
+ mae: 0.2256
+ rmse: 0.3109
+Configuracao: [3, 1, 32, 'relu', 40, 10]
+ loss: 0.2973
+ mae: 0.2248
+ rmse: 0.3109
+Configuracao: [3, 1, 32, 'tanh', 20, 10]
+ loss: 0.2977
+ mae: 0.2282
+ rmse: 0.3116
+Configuracao: [3, 1, 32, 'relu', 15, 10]
+ loss: 0.2979
+ mae: 0.2298
+ rmse: 0.3117
+Configuracao: [3, 1, 64, 'relu', 20, 10]
+ loss: 0.2981
+ mae: 0.2248
+ rmse: 0.3120
+Configuracao: [3, 1, 64, 'relu', 50, 10]
+ loss: 0.2982
+ mae: 0.2246
+ rmse: 0.3122
+Configuracao: [3, 1, 64, 'relu', 30, 10]
+ loss: 0.2983
+ mae: 0.2253
+ rmse: 0.3121
+Configuracao: [3, 1, 32, 'tanh', 40, 10]
+ loss: 0.2983
+ mae: 0.2307
+ rmse: 0.3122
+Configuracao: [3, 1, 64, 'relu', 40, 10]
+ loss: 0.2983
+ mae: 0.2248
+ rmse: 0.3122
+Configuracao: [3, 1, 128, 'sigmoid', 50, 2]
+ loss: 0.2984
+ mae: 0.2307
+ rmse: 0.3122
+Configuracao: [3, 1, 128, 'relu', 15, 10]
+ loss: 0.2988
+ mae: 0.2261
+ rmse: 0.3127
+Configuracao: [3, 1, 32, 'tanh', 15, 10]
+ loss: 0.2989
+ mae: 0.2293
+ rmse: 0.3126
+Configuracao: [3, 1, 32, 'relu', 20, 7]
+ loss: 0.2989
+ mae: 0.2260
+ rmse: 0.3129
+Configuracao: [3, 1, 128, 'relu', 50, 10]
+ loss: 0.2990
+ mae: 0.2261
+ rmse: 0.3129
+Configuracao: [3, 1, 64, 'tanh', 30, 10]
+ loss: 0.2991
+ mae: 0.2239
+ rmse: 0.3130
+Configuracao: [3, 1, 128, 'relu', 40, 10]
+ loss: 0.2991
+ mae: 0.2262
+ rmse: 0.3130
+Configuracao: [3, 1, 32, 'tanh', 15, 7]
+ loss: 0.2991
+ mae: 0.2252
+ rmse: 0.3130
+Configuracao: [3, 1, 64, 'tanh', 15, 10]
+ loss: 0.2991
+ mae: 0.2256
+ rmse: 0.3131
+Configuracao: [3, 1, 128, 'tanh', 40, 10]
+ loss: 0.2992
+ mae: 0.2241
+ rmse: 0.3131
+Configuracao: [3, 1, 32, 'relu', 20, 10]
+ loss: 0.2992
+ mae: 0.2273
+ rmse: 0.3132
+Configuracao: [3, 1, 32, 'tanh', 30, 7]
+ loss: 0.2992
+ mae: 0.2248
+ rmse: 0.3132
+Configuracao: [3, 1, 128, 'tanh', 50, 10]
+ loss: 0.2993
+ mae: 0.2239
+ rmse: 0.3133
+Configuracao: [3, 1, 32, 'sigmoid', 20, 10]
+ loss: 0.2993
+ mae: 0.2312
+ rmse: 0.3133
+Configuracao: [3, 1, 32, 'sigmoid', 30, 10]
+ loss: 0.2993
+ mae: 0.2313
+ rmse: 0.3134
+Configuracao: [3, 1, 64, 'relu', 15, 10]
+ loss: 0.2993
+ mae: 0.2283
+ rmse: 0.3133
+Configuracao: [3, 1, 128, 'tanh', 30, 10]
+ loss: 0.2993
+ mae: 0.2240
+ rmse: 0.3134
+Configuracao: [3, 1, 32, 'tanh', 30, 10]
+ loss: 0.2995
+ mae: 0.2258
+ rmse: 0.3135
+Configuracao: [3, 1, 64, 'sigmoid', 30, 10]
+ loss: 0.2995
+ mae: 0.2279
+ rmse: 0.3134
+Configuracao: [3, 1, 64, 'tanh', 40, 10]
+ loss: 0.2995
+ mae: 0.2251
+ rmse: 0.3135
+Configuracao: [3, 1, 64, 'relu', 20, 7]
+ loss: 0.2995
+ mae: 0.2269
+ rmse: 0.3134
+Configuracao: [3, 1, 32, 'tanh', 40, 7]
+ loss: 0.2995
+ mae: 0.2250
+ rmse: 0.3135
+Configuracao: [3, 1, 64, 'relu', 15, 7]
+ loss: 0.2996
+ mae: 0.2270
+ rmse: 0.3135
+Configuracao: [3, 1, 128, 'relu', 20, 10]
+ loss: 0.2996
+ mae: 0.2275
+ rmse: 0.3135
+Configuracao: [3, 1, 32, 'tanh', 20, 7]
+ loss: 0.2996
+ mae: 0.2266
+ rmse: 0.3136
+Configuracao: [3, 1, 32, 'sigmoid', 15, 10]
+ loss: 0.2997
+ mae: 0.2332
+ rmse: 0.3133
+Configuracao: [3, 1, 128, 'relu', 30, 10]
+ loss: 0.2998
+ mae: 0.2269
+ rmse: 0.3137
+Configuracao: [3, 1, 64, 'tanh', 20, 10]
+ loss: 0.2999
+ mae: 0.2261
+ rmse: 0.3139
+Configuracao: [3, 1, 32, 'tanh', 50, 7]
+ loss: 0.2999
+ mae: 0.2263
+ rmse: 0.3139
+Configuracao: [3, 1, 32, 'relu', 30, 7]
+ loss: 0.2999
+ mae: 0.2266
+ rmse: 0.3139
+Configuracao: [3, 1, 32, 'relu', 40, 7]
+ loss: 0.3000
+ mae: 0.2270
+ rmse: 0.3141
+Configuracao: [3, 1, 128, 'relu', 50, 7]
+ loss: 0.3001
+ mae: 0.2294
+ rmse: 0.3142
+Configuracao: [3, 1, 32, 'tanh', 50, 10]
+ loss: 0.3002
+ mae: 0.2250
+ rmse: 0.3142
+Configuracao: [3, 1, 128, 'tanh', 20, 10]
+ loss: 0.3002
+ mae: 0.2248
+ rmse: 0.3142
+Configuracao: [3, 1, 32, 'sigmoid', 50, 10]
+ loss: 0.3002
+ mae: 0.2276
+ rmse: 0.3144
+Configuracao: [3, 1, 32, 'sigmoid', 40, 7]
+ loss: 0.3004
+ mae: 0.2280
+ rmse: 0.3145
+Configuracao: [3, 1, 64, 'tanh', 50, 10]
+ loss: 0.3004
+ mae: 0.2259
+ rmse: 0.3145
+Configuracao: [3, 1, 64, 'relu', 40, 7]
+ loss: 0.3006
+ mae: 0.2277
+ rmse: 0.3146
+Configuracao: [3, 1, 32, 'relu', 15, 7]
+ loss: 0.3006
+ mae: 0.2287
+ rmse: 0.3146
+Configuracao: [3, 1, 64, 'tanh', 40, 7]
+ loss: 0.3006
+ mae: 0.2257
+ rmse: 0.3147
+Configuracao: [3, 1, 32, 'relu', 50, 7]
+ loss: 0.3006
+ mae: 0.2272
+ rmse: 0.3148
+Configuracao: [3, 1, 64, 'sigmoid', 15, 10]
+ loss: 0.3007
+ mae: 0.2295
+ rmse: 0.3146
+Configuracao: [3, 1, 64, 'relu', 50, 7]
+ loss: 0.3008
+ mae: 0.2282
+ rmse: 0.3149
+Configuracao: [3, 1, 32, 'tanh', 15, 5]
+ loss: 0.3011
+ mae: 0.2278
+ rmse: 0.3152
+Configuracao: [3, 1, 32, 'relu', 30, 5]
+ loss: 0.3011
+ mae: 0.2290
+ rmse: 0.3153
+Configuracao: [3, 1, 32, 'relu', 15, 5]
+ loss: 0.3011
+ mae: 0.2302
+ rmse: 0.3152
+Configuracao: [3, 1, 64, 'tanh', 20, 7]
+ loss: 0.3012
+ mae: 0.2275
+ rmse: 0.3152
+Configuracao: [3, 1, 64, 'tanh', 15, 7]
+ loss: 0.3013
+ mae: 0.2281
+ rmse: 0.3153
+Configuracao: [3, 1, 64, 'tanh', 30, 7]
+ loss: 0.3013
+ mae: 0.2272
+ rmse: 0.3154
+Configuracao: [3, 1, 32, 'tanh', 20, 5]
+ loss: 0.3013
+ mae: 0.2267
+ rmse: 0.3154
+Configuracao: [3, 1, 32, 'relu', 20, 5]
+ loss: 0.3013
+ mae: 0.2305
+ rmse: 0.3153
+Configuracao: [3, 1, 128, 'relu', 40, 7]
+ loss: 0.3013
+ mae: 0.2276
+ rmse: 0.3155
+Configuracao: [3, 1, 32, 'relu', 40, 5]
+ loss: 0.3016
+ mae: 0.2288
+ rmse: 0.3157
+Configuracao: [3, 1, 64, 'relu', 30, 7]
+ loss: 0.3016
+ mae: 0.2309
+ rmse: 0.3156
+Configuracao: [3, 1, 64, 'sigmoid', 40, 10]
+ loss: 0.3017
+ mae: 0.2304
+ rmse: 0.3159
+Configuracao: [3, 1, 128, 'relu', 20, 7]
+ loss: 0.3019
+ mae: 0.2306
+ rmse: 0.3159
+Configuracao: [3, 1, 32, 'tanh', 40, 5]
+ loss: 0.3020
+ mae: 0.2288
+ rmse: 0.3161
+Configuracao: [3, 1, 32, 'tanh', 30, 5]
+ loss: 0.3020
+ mae: 0.2290
+ rmse: 0.3161
+Configuracao: [3, 1, 64, 'tanh', 50, 7]
+ loss: 0.3020
+ mae: 0.2292
+ rmse: 0.3161
+Configuracao: [3, 1, 128, 'relu', 30, 7]
+ loss: 0.3020
+ mae: 0.2295
+ rmse: 0.3160
+Configuracao: [3, 1, 128, 'tanh', 15, 10]
+ loss: 0.3020
+ mae: 0.2297
+ rmse: 0.3161
+Configuracao: [3, 1, 32, 'relu', 50, 5]
+ loss: 0.3021
+ mae: 0.2302
+ rmse: 0.3162
+Configuracao: [3, 1, 32, 'sigmoid', 30, 7]
+ loss: 0.3021
+ mae: 0.2311
+ rmse: 0.3164
+Configuracao: [3, 1, 32, 'tanh', 50, 5]
+ loss: 0.3022
+ mae: 0.2287
+ rmse: 0.3164
+Configuracao: [3, 1, 128, 'tanh', 50, 7]
+ loss: 0.3023
+ mae: 0.2286
+ rmse: 0.3164
+Configuracao: [3, 1, 64, 'relu', 30, 5]
+ loss: 0.3023
+ mae: 0.2305
+ rmse: 0.3163
+Configuracao: [3, 1, 128, 'relu', 15, 7]
+ loss: 0.3023
+ mae: 0.2306
+ rmse: 0.3163
+Configuracao: [3, 1, 64, 'relu', 40, 5]
+ loss: 0.3025
+ mae: 0.2299
+ rmse: 0.3167
+Configuracao: [3, 1, 64, 'sigmoid', 20, 10]
+ loss: 0.3028
+ mae: 0.2337
+ rmse: 0.3169
+Configuracao: [3, 1, 128, 'tanh', 40, 7]
+ loss: 0.3028
+ mae: 0.2285
+ rmse: 0.3170
+Configuracao: [3, 1, 128, 'tanh', 30, 7]
+ loss: 0.3030
+ mae: 0.2288
+ rmse: 0.3171
+Configuracao: [3, 1, 64, 'tanh', 50, 5]
+ loss: 0.3031
+ mae: 0.2301
+ rmse: 0.3172
+Configuracao: [3, 1, 64, 'relu', 50, 5]
+ loss: 0.3031
+ mae: 0.2296
+ rmse: 0.3174
+Configuracao: [3, 1, 128, 'sigmoid', 50, 10]
+ loss: 0.3032
+ mae: 0.2343
+ rmse: 0.3173
+Configuracao: [3, 1, 128, 'sigmoid', 30, 10]
+ loss: 0.3032
+ mae: 0.2350
+ rmse: 0.3173
+Configuracao: [3, 1, 128, 'tanh', 20, 7]
+ loss: 0.3033
+ mae: 0.2286
+ rmse: 0.3175
+Configuracao: [3, 1, 64, 'relu', 15, 5]
+ loss: 0.3034
+ mae: 0.2322
+ rmse: 0.3175
+Configuracao: [3, 1, 64, 'tanh', 40, 5]
+ loss: 0.3034
+ mae: 0.2294
+ rmse: 0.3175
+Configuracao: [3, 1, 64, 'relu', 20, 5]
+ loss: 0.3034
+ mae: 0.2316
+ rmse: 0.3176
+Configuracao: [3, 1, 128, 'sigmoid', 40, 10]
+ loss: 0.3034
+ mae: 0.2344
+ rmse: 0.3176
+Configuracao: [3, 1, 128, 'sigmoid', 20, 10]
+ loss: 0.3035
+ mae: 0.2357
+ rmse: 0.3175
+Configuracao: [3, 1, 128, 'relu', 50, 5]
+ loss: 0.3035
+ mae: 0.2305
+ rmse: 0.3178
+Configuracao: [3, 1, 128, 'sigmoid', 15, 10]
+ loss: 0.3037
+ mae: 0.2357
+ rmse: 0.3176
+Configuracao: [3, 1, 64, 'sigmoid', 30, 7]
+ loss: 0.3037
+ mae: 0.2328
+ rmse: 0.3178
+Configuracao: [3, 1, 64, 'tanh', 30, 5]
+ loss: 0.3037
+ mae: 0.2296
+ rmse: 0.3179
+Configuracao: [3, 1, 128, 'tanh', 15, 7]
+ loss: 0.3039
+ mae: 0.2289
+ rmse: 0.3181
+Configuracao: [3, 1, 128, 'relu', 30, 5]
+ loss: 0.3047
+ mae: 0.2308
+ rmse: 0.3189
+Configuracao: [3, 1, 32, 'sigmoid', 20, 7]
+ loss: 0.3048
+ mae: 0.2344
+ rmse: 0.3191
+Configuracao: [3, 1, 64, 'sigmoid', 15, 7]
+ loss: 0.3052
+ mae: 0.2345
+ rmse: 0.3192
+Configuracao: [3, 1, 64, 'tanh', 20, 5]
+ loss: 0.3052
+ mae: 0.2304
+ rmse: 0.3195
+Configuracao: [3, 1, 64, 'tanh', 15, 5]
+ loss: 0.3053
+ mae: 0.2301
+ rmse: 0.3195
+Configuracao: [3, 1, 128, 'relu', 20, 5]
+ loss: 0.3057
+ mae: 0.2310
+ rmse: 0.3199
+Configuracao: [3, 1, 128, 'relu', 40, 5]
+ loss: 0.3060
+ mae: 0.2312
+ rmse: 0.3204
+Configuracao: [3, 1, 128, 'tanh', 50, 5]
+ loss: 0.3062
+ mae: 0.2323
+ rmse: 0.3206
+Configuracao: [3, 1, 128, 'tanh', 40, 5]
+ loss: 0.3066
+ mae: 0.2312
+ rmse: 0.3209
+Configuracao: [3, 1, 32, 'sigmoid', 50, 7]
+ loss: 0.3067
+ mae: 0.2366
+ rmse: 0.3214
+Configuracao: [3, 1, 32, 'sigmoid', 50, 5]
+ loss: 0.3068
+ mae: 0.2361
+ rmse: 0.3213
+Configuracao: [3, 1, 128, 'sigmoid', 30, 2]
+ loss: 0.3070
+ mae: 0.2343
+ rmse: 0.3212
+Configuracao: [3, 1, 128, 'relu', 15, 5]
+ loss: 0.3074
+ mae: 0.2329
+ rmse: 0.3217
+Configuracao: [3, 1, 128, 'tanh', 30, 5]
+ loss: 0.3075
+ mae: 0.2314
+ rmse: 0.3219
+Configuracao: [3, 1, 64, 'sigmoid', 40, 7]
+ loss: 0.3078
+ mae: 0.2371
+ rmse: 0.3225
+Configuracao: [3, 1, 32, 'sigmoid', 15, 5]
+ loss: 0.3084
+ mae: 0.2389
+ rmse: 0.3228
+Configuracao: [3, 1, 32, 'relu', 50, 2]
+ loss: 0.3086
+ mae: 0.2415
+ rmse: 0.3232
+Configuracao: [3, 1, 128, 'tanh', 20, 5]
+ loss: 0.3089
+ mae: 0.2321
+ rmse: 0.3232
+Configuracao: [5, 1, 128, 'sigmoid', 30, 10]
+ loss: 0.3089
+ mae: 0.2400
+ rmse: 0.3228
+Configuracao: [3, 1, 64, 'sigmoid', 20, 7]
+ loss: 0.3092
+ mae: 0.2414
+ rmse: 0.3237
+Configuracao: [5, 1, 32, 'relu', 15, 10]
+ loss: 0.3093
+ mae: 0.2400
+ rmse: 0.3231
+Configuracao: [3, 1, 64, 'sigmoid', 50, 7]
+ loss: 0.3093
+ mae: 0.2394
+ rmse: 0.3239
+Configuracao: [5, 1, 32, 'relu', 30, 10]
+ loss: 0.3096
+ mae: 0.2416
+ rmse: 0.3235
+Configuracao: [3, 1, 32, 'sigmoid', 15, 7]
+ loss: 0.3096
+ mae: 0.2394
+ rmse: 0.3242
+Configuracao: [5, 1, 32, 'tanh', 20, 10]
+ loss: 0.3097
+ mae: 0.2414
+ rmse: 0.3235
+Configuracao: [5, 1, 32, 'tanh', 15, 10]
+ loss: 0.3097
+ mae: 0.2410
+ rmse: 0.3235
+Configuracao: [5, 1, 32, 'relu', 20, 10]
+ loss: 0.3097
+ mae: 0.2402
+ rmse: 0.3237
+Configuracao: [5, 1, 128, 'sigmoid', 50, 10]
+ loss: 0.3098
+ mae: 0.2422
+ rmse: 0.3235
+Configuracao: [5, 1, 32, 'tanh', 40, 10]
+ loss: 0.3099
+ mae: 0.2422
+ rmse: 0.3238
+Configuracao: [5, 1, 32, 'sigmoid', 40, 10]
+ loss: 0.3100
+ mae: 0.2413
+ rmse: 0.3238
+Configuracao: [5, 1, 32, 'relu', 15, 7]
+ loss: 0.3100
+ mae: 0.2420
+ rmse: 0.3239
+Configuracao: [5, 1, 32, 'tanh', 30, 10]
+ loss: 0.3101
+ mae: 0.2424
+ rmse: 0.3240
+Configuracao: [3, 1, 32, 'sigmoid', 40, 10]
+ loss: 0.3101
+ mae: 0.2425
+ rmse: 0.3250
+Configuracao: [5, 1, 32, 'relu', 40, 10]
+ loss: 0.3101
+ mae: 0.2425
+ rmse: 0.3241
+Configuracao: [3, 1, 64, 'sigmoid', 50, 10]
+ loss: 0.3102
+ mae: 0.2396
+ rmse: 0.3248
+Configuracao: [5, 1, 32, 'tanh', 50, 10]
+ loss: 0.3103
+ mae: 0.2426
+ rmse: 0.3242
+Configuracao: [5, 1, 64, 'relu', 15, 10]
+ loss: 0.3103
+ mae: 0.2434
+ rmse: 0.3242
+Configuracao: [5, 1, 32, 'relu', 50, 10]
+ loss: 0.3103
+ mae: 0.2434
+ rmse: 0.3243
+Configuracao: [3, 1, 128, 'tanh', 15, 5]
+ loss: 0.3104
+ mae: 0.2336
+ rmse: 0.3248
+Configuracao: [5, 1, 64, 'relu', 50, 10]
+ loss: 0.3105
+ mae: 0.2446
+ rmse: 0.3244
+Configuracao: [3, 1, 128, 'sigmoid', 15, 7]
+ loss: 0.3105
+ mae: 0.2371
+ rmse: 0.3250
+Configuracao: [5, 1, 64, 'tanh', 15, 10]
+ loss: 0.3105
+ mae: 0.2436
+ rmse: 0.3244
+Configuracao: [5, 1, 64, 'relu', 40, 10]
+ loss: 0.3106
+ mae: 0.2443
+ rmse: 0.3245
+Configuracao: [5, 1, 64, 'tanh', 50, 10]
+ loss: 0.3106
+ mae: 0.2441
+ rmse: 0.3245
+Configuracao: [5, 1, 64, 'tanh', 20, 10]
+ loss: 0.3106
+ mae: 0.2440
+ rmse: 0.3245
+Configuracao: [5, 1, 64, 'tanh', 30, 10]
+ loss: 0.3107
+ mae: 0.2441
+ rmse: 0.3246
+Configuracao: [5, 1, 128, 'relu', 15, 10]
+ loss: 0.3107
+ mae: 0.2441
+ rmse: 0.3247
+Configuracao: [5, 1, 64, 'relu', 30, 10]
+ loss: 0.3108
+ mae: 0.2449
+ rmse: 0.3247
+Configuracao: [5, 1, 64, 'relu', 20, 10]
+ loss: 0.3108
+ mae: 0.2447
+ rmse: 0.3248
+Configuracao: [5, 1, 32, 'sigmoid', 30, 10]
+ loss: 0.3109
+ mae: 0.2428
+ rmse: 0.3249
+Configuracao: [5, 1, 32, 'relu', 40, 7]
+ loss: 0.3110
+ mae: 0.2436
+ rmse: 0.3250
+Configuracao: [5, 1, 32, 'relu', 20, 7]
+ loss: 0.3110
+ mae: 0.2446
+ rmse: 0.3250
+Configuracao: [5, 1, 128, 'relu', 30, 10]
+ loss: 0.3110
+ mae: 0.2455
+ rmse: 0.3249
+Configuracao: [5, 1, 32, 'tanh', 15, 7]
+ loss: 0.3111
+ mae: 0.2427
+ rmse: 0.3250
+Configuracao: [5, 1, 64, 'tanh', 40, 10]
+ loss: 0.3111
+ mae: 0.2450
+ rmse: 0.3250
+Configuracao: [5, 1, 32, 'tanh', 30, 7]
+ loss: 0.3111
+ mae: 0.2429
+ rmse: 0.3250
+Configuracao: [5, 1, 128, 'relu', 20, 10]
+ loss: 0.3111
+ mae: 0.2453
+ rmse: 0.3250
+Configuracao: [5, 1, 32, 'tanh', 40, 7]
+ loss: 0.3112
+ mae: 0.2429
+ rmse: 0.3251
+Configuracao: [5, 1, 128, 'relu', 40, 10]
+ loss: 0.3112
+ mae: 0.2458
+ rmse: 0.3250
+Configuracao: [5, 1, 32, 'tanh', 20, 7]
+ loss: 0.3112
+ mae: 0.2433
+ rmse: 0.3251
+Configuracao: [5, 1, 32, 'tanh', 50, 7]
+ loss: 0.3112
+ mae: 0.2431
+ rmse: 0.3252
+Configuracao: [5, 1, 64, 'sigmoid', 30, 10]
+ loss: 0.3112
+ mae: 0.2450
+ rmse: 0.3252
+Configuracao: [5, 1, 32, 'relu', 30, 7]
+ loss: 0.3112
+ mae: 0.2433
+ rmse: 0.3252
+Configuracao: [3, 1, 64, 'sigmoid', 40, 2]
+ loss: 0.3112
+ mae: 0.2534
+ rmse: 0.3256
+Configuracao: [5, 1, 128, 'tanh', 40, 10]
+ loss: 0.3113
+ mae: 0.2450
+ rmse: 0.3252
+Configuracao: [5, 1, 128, 'tanh', 30, 10]
+ loss: 0.3113
+ mae: 0.2450
+ rmse: 0.3252
+Configuracao: [5, 1, 128, 'relu', 50, 10]
+ loss: 0.3113
+ mae: 0.2458
+ rmse: 0.3252
+Configuracao: [5, 1, 128, 'sigmoid', 15, 7]
+ loss: 0.3113
+ mae: 0.2465
+ rmse: 0.3250
+Configuracao: [5, 1, 128, 'tanh', 20, 10]
+ loss: 0.3114
+ mae: 0.2451
+ rmse: 0.3253
+Configuracao: [5, 1, 32, 'relu', 50, 7]
+ loss: 0.3116
+ mae: 0.2452
+ rmse: 0.3256
+Configuracao: [5, 1, 128, 'tanh', 50, 10]
+ loss: 0.3116
+ mae: 0.2460
+ rmse: 0.3256
+Configuracao: [5, 1, 128, 'tanh', 15, 10]
+ loss: 0.3117
+ mae: 0.2455
+ rmse: 0.3255
+Configuracao: [5, 1, 64, 'relu', 40, 7]
+ loss: 0.3117
+ mae: 0.2441
+ rmse: 0.3257
+Configuracao: [5, 1, 64, 'relu', 15, 7]
+ loss: 0.3117
+ mae: 0.2444
+ rmse: 0.3257
+Configuracao: [5, 1, 32, 'relu', 40, 5]
+ loss: 0.3119
+ mae: 0.2461
+ rmse: 0.3259
+Configuracao: [3, 1, 32, 'sigmoid', 20, 5]
+ loss: 0.3119
+ mae: 0.2432
+ rmse: 0.3267
+Configuracao: [5, 1, 64, 'relu', 20, 7]
+ loss: 0.3120
+ mae: 0.2453
+ rmse: 0.3260
+Configuracao: [5, 1, 64, 'relu', 30, 7]
+ loss: 0.3121
+ mae: 0.2457
+ rmse: 0.3260
+Configuracao: [5, 1, 64, 'sigmoid', 40, 10]
+ loss: 0.3121
+ mae: 0.2468
+ rmse: 0.3262
+Configuracao: [5, 1, 64, 'relu', 50, 7]
+ loss: 0.3122
+ mae: 0.2458
+ rmse: 0.3263
+Configuracao: [5, 1, 64, 'tanh', 15, 7]
+ loss: 0.3123
+ mae: 0.2443
+ rmse: 0.3262
+Configuracao: [5, 1, 64, 'tanh', 30, 7]
+ loss: 0.3123
+ mae: 0.2439
+ rmse: 0.3262
+Configuracao: [5, 1, 32, 'relu', 15, 5]
+ loss: 0.3123
+ mae: 0.2459
+ rmse: 0.3263
+Configuracao: [5, 1, 64, 'tanh', 20, 7]
+ loss: 0.3123
+ mae: 0.2442
+ rmse: 0.3262
+Configuracao: [3, 1, 32, 'relu', 40, 2]
+ loss: 0.3124
+ mae: 0.2471
+ rmse: 0.3269
+Configuracao: [5, 1, 32, 'tanh', 30, 5]
+ loss: 0.3124
+ mae: 0.2444
+ rmse: 0.3263
+Configuracao: [5, 1, 64, 'tanh', 40, 7]
+ loss: 0.3124
+ mae: 0.2445
+ rmse: 0.3264
+Configuracao: [5, 1, 64, 'tanh', 50, 7]
+ loss: 0.3126
+ mae: 0.2450
+ rmse: 0.3266
+Configuracao: [5, 1, 32, 'relu', 50, 5]
+ loss: 0.3126
+ mae: 0.2472
+ rmse: 0.3267
+Configuracao: [5, 1, 128, 'relu', 50, 7]
+ loss: 0.3128
+ mae: 0.2458
+ rmse: 0.3268
+Configuracao: [3, 1, 128, 'sigmoid', 30, 7]
+ loss: 0.3129
+ mae: 0.2391
+ rmse: 0.3274
+Configuracao: [3, 1, 64, 'relu', 50, 2]
+ loss: 0.3130
+ mae: 0.2502
+ rmse: 0.3270
+Configuracao: [3, 1, 128, 'sigmoid', 40, 2]
+ loss: 0.3130
+ mae: 0.2565
+ rmse: 0.3266
+Configuracao: [5, 1, 32, 'tanh', 20, 5]
+ loss: 0.3130
+ mae: 0.2458
+ rmse: 0.3270
+Configuracao: [5, 1, 32, 'relu', 20, 5]
+ loss: 0.3130
+ mae: 0.2480
+ rmse: 0.3271
+Configuracao: [3, 1, 128, 'sigmoid', 20, 7]
+ loss: 0.3131
+ mae: 0.2397
+ rmse: 0.3277
+Configuracao: [5, 1, 64, 'sigmoid', 50, 10]
+ loss: 0.3131
+ mae: 0.2480
+ rmse: 0.3273
+Configuracao: [5, 1, 32, 'sigmoid', 20, 10]
+ loss: 0.3131
+ mae: 0.2469
+ rmse: 0.3275
+Configuracao: [5, 1, 32, 'relu', 30, 5]
+ loss: 0.3132
+ mae: 0.2465
+ rmse: 0.3273
+Configuracao: [5, 1, 64, 'sigmoid', 20, 10]
+ loss: 0.3133
+ mae: 0.2485
+ rmse: 0.3274
+Configuracao: [5, 1, 128, 'tanh', 40, 7]
+ loss: 0.3133
+ mae: 0.2454
+ rmse: 0.3273
+Configuracao: [5, 1, 128, 'relu', 40, 7]
+ loss: 0.3133
+ mae: 0.2456
+ rmse: 0.3274
+Configuracao: [3, 1, 32, 'sigmoid', 30, 5]
+ loss: 0.3133
+ mae: 0.2439
+ rmse: 0.3283
+Configuracao: [5, 1, 32, 'sigmoid', 15, 10]
+ loss: 0.3133
+ mae: 0.2476
+ rmse: 0.3276
+Configuracao: [5, 1, 128, 'relu', 30, 7]
+ loss: 0.3134
+ mae: 0.2454
+ rmse: 0.3274
+Configuracao: [5, 1, 128, 'relu', 20, 7]
+ loss: 0.3136
+ mae: 0.2463
+ rmse: 0.3276
+Configuracao: [5, 1, 128, 'relu', 15, 7]
+ loss: 0.3136
+ mae: 0.2458
+ rmse: 0.3276
+Configuracao: [5, 1, 128, 'tanh', 30, 7]
+ loss: 0.3137
+ mae: 0.2454
+ rmse: 0.3277
+Configuracao: [5, 1, 64, 'sigmoid', 15, 10]
+ loss: 0.3139
+ mae: 0.2482
+ rmse: 0.3284
+Configuracao: [3, 1, 32, 'sigmoid', 40, 5]
+ loss: 0.3140
+ mae: 0.2448
+ rmse: 0.3290
+Configuracao: [5, 1, 32, 'tanh', 40, 5]
+ loss: 0.3141
+ mae: 0.2475
+ rmse: 0.3282
+Configuracao: [5, 1, 32, 'tanh', 50, 5]
+ loss: 0.3142
+ mae: 0.2479
+ rmse: 0.3284
+Configuracao: [5, 1, 32, 'tanh', 15, 5]
+ loss: 0.3143
+ mae: 0.2462
+ rmse: 0.3283
+Configuracao: [5, 1, 64, 'relu', 30, 5]
+ loss: 0.3143
+ mae: 0.2467
+ rmse: 0.3284
+Configuracao: [5, 1, 128, 'tanh', 15, 7]
+ loss: 0.3146
+ mae: 0.2457
+ rmse: 0.3285
+Configuracao: [3, 1, 64, 'tanh', 20, 2]
+ loss: 0.3147
+ mae: 0.2615
+ rmse: 0.3283
+Configuracao: [5, 1, 128, 'tanh', 20, 7]
+ loss: 0.3147
+ mae: 0.2456
+ rmse: 0.3286
+Configuracao: [6, 1, 128, 'sigmoid', 50, 10]
+ loss: 0.3148
+ mae: 0.2431
+ rmse: 0.3290
+Configuracao: [6, 1, 32, 'relu', 15, 10]
+ loss: 0.3148
+ mae: 0.2440
+ rmse: 0.3291
+Configuracao: [3, 1, 128, 'sigmoid', 40, 7]
+ loss: 0.3149
+ mae: 0.2409
+ rmse: 0.3297
+Configuracao: [6, 1, 32, 'relu', 30, 10]
+ loss: 0.3150
+ mae: 0.2450
+ rmse: 0.3292
+Configuracao: [5, 1, 64, 'relu', 20, 5]
+ loss: 0.3150
+ mae: 0.2472
+ rmse: 0.3291
+Configuracao: [5, 1, 128, 'tanh', 50, 7]
+ loss: 0.3151
+ mae: 0.2476
+ rmse: 0.3294
+Configuracao: [6, 1, 32, 'relu', 40, 10]
+ loss: 0.3151
+ mae: 0.2461
+ rmse: 0.3295
+Configuracao: [3, 1, 64, 'sigmoid', 40, 5]
+ loss: 0.3152
+ mae: 0.2407
+ rmse: 0.3298
+Configuracao: [6, 1, 32, 'relu', 20, 10]
+ loss: 0.3152
+ mae: 0.2460
+ rmse: 0.3295
+Configuracao: [3, 1, 32, 'relu', 30, 2]
+ loss: 0.3152
+ mae: 0.2511
+ rmse: 0.3297
+Configuracao: [6, 1, 32, 'sigmoid', 40, 10]
+ loss: 0.3152
+ mae: 0.2455
+ rmse: 0.3295
+Configuracao: [6, 1, 64, 'sigmoid', 40, 10]
+ loss: 0.3154
+ mae: 0.2468
+ rmse: 0.3298
+Configuracao: [6, 1, 32, 'relu', 50, 10]
+ loss: 0.3155
+ mae: 0.2472
+ rmse: 0.3298
+Configuracao: [3, 1, 64, 'sigmoid', 50, 5]
+ loss: 0.3155
+ mae: 0.2417
+ rmse: 0.3302
+Configuracao: [5, 1, 64, 'relu', 15, 5]
+ loss: 0.3155
+ mae: 0.2484
+ rmse: 0.3296
+Configuracao: [6, 1, 32, 'tanh', 50, 10]
+ loss: 0.3155
+ mae: 0.2477
+ rmse: 0.3298
+Configuracao: [6, 1, 32, 'sigmoid', 20, 7]
+ loss: 0.3155
+ mae: 0.2495
+ rmse: 0.3298
+Configuracao: [5, 1, 64, 'relu', 40, 5]
+ loss: 0.3156
+ mae: 0.2481
+ rmse: 0.3297
+Configuracao: [6, 1, 32, 'tanh', 15, 10]
+ loss: 0.3156
+ mae: 0.2466
+ rmse: 0.3299
+Configuracao: [6, 1, 32, 'sigmoid', 50, 7]
+ loss: 0.3156
+ mae: 0.2483
+ rmse: 0.3299
+Configuracao: [5, 1, 64, 'tanh', 20, 5]
+ loss: 0.3156
+ mae: 0.2475
+ rmse: 0.3296
+Configuracao: [3, 1, 128, 'sigmoid', 50, 7]
+ loss: 0.3156
+ mae: 0.2426
+ rmse: 0.3306
+Configuracao: [6, 1, 32, 'tanh', 30, 10]
+ loss: 0.3157
+ mae: 0.2476
+ rmse: 0.3300
+Configuracao: [6, 1, 32, 'tanh', 30, 7]
+ loss: 0.3158
+ mae: 0.2461
+ rmse: 0.3300
+Configuracao: [6, 1, 32, 'tanh', 40, 10]
+ loss: 0.3158
+ mae: 0.2476
+ rmse: 0.3301
+Configuracao: [6, 1, 64, 'relu', 30, 10]
+ loss: 0.3158
+ mae: 0.2483
+ rmse: 0.3301
+Configuracao: [6, 1, 64, 'tanh', 40, 10]
+ loss: 0.3159
+ mae: 0.2484
+ rmse: 0.3301
+Configuracao: [5, 1, 64, 'relu', 50, 5]
+ loss: 0.3159
+ mae: 0.2502
+ rmse: 0.3301
+Configuracao: [6, 1, 32, 'relu', 40, 7]
+ loss: 0.3159
+ mae: 0.2480
+ rmse: 0.3302
+Configuracao: [5, 1, 64, 'tanh', 30, 5]
+ loss: 0.3159
+ mae: 0.2477
+ rmse: 0.3300
+Configuracao: [6, 1, 32, 'relu', 30, 7]
+ loss: 0.3159
+ mae: 0.2467
+ rmse: 0.3302
+Configuracao: [6, 1, 32, 'tanh', 20, 10]
+ loss: 0.3159
+ mae: 0.2478
+ rmse: 0.3302
+Configuracao: [6, 1, 64, 'relu', 40, 10]
+ loss: 0.3160
+ mae: 0.2492
+ rmse: 0.3303
+Configuracao: [6, 1, 64, 'relu', 20, 10]
+ loss: 0.3161
+ mae: 0.2502
+ rmse: 0.3304
+Configuracao: [5, 1, 32, 'sigmoid', 50, 7]
+ loss: 0.3161
+ mae: 0.2500
+ rmse: 0.3306
+Configuracao: [6, 1, 64, 'tanh', 15, 10]
+ loss: 0.3162
+ mae: 0.2482
+ rmse: 0.3304
+Configuracao: [6, 1, 64, 'tanh', 50, 10]
+ loss: 0.3162
+ mae: 0.2493
+ rmse: 0.3305
+Configuracao: [6, 1, 32, 'tanh', 20, 7]
+ loss: 0.3162
+ mae: 0.2473
+ rmse: 0.3305
+Configuracao: [6, 1, 64, 'relu', 50, 10]
+ loss: 0.3162
+ mae: 0.2502
+ rmse: 0.3305
+Configuracao: [6, 1, 32, 'relu', 15, 7]
+ loss: 0.3163
+ mae: 0.2496
+ rmse: 0.3306
+Configuracao: [6, 1, 64, 'tanh', 30, 10]
+ loss: 0.3163
+ mae: 0.2484
+ rmse: 0.3305
+Configuracao: [6, 1, 32, 'tanh', 50, 7]
+ loss: 0.3163
+ mae: 0.2484
+ rmse: 0.3306
+Configuracao: [6, 1, 64, 'relu', 15, 10]
+ loss: 0.3163
+ mae: 0.2502
+ rmse: 0.3306
+Configuracao: [6, 1, 32, 'tanh', 15, 7]
+ loss: 0.3164
+ mae: 0.2470
+ rmse: 0.3306
+Configuracao: [6, 1, 64, 'tanh', 20, 10]
+ loss: 0.3164
+ mae: 0.2489
+ rmse: 0.3306
+Configuracao: [6, 1, 32, 'relu', 50, 7]
+ loss: 0.3164
+ mae: 0.2487
+ rmse: 0.3308
+Configuracao: [5, 1, 64, 'sigmoid', 40, 7]
+ loss: 0.3164
+ mae: 0.2490
+ rmse: 0.3307
+Configuracao: [5, 1, 32, 'sigmoid', 20, 7]
+ loss: 0.3165
+ mae: 0.2509
+ rmse: 0.3310
+Configuracao: [6, 1, 32, 'tanh', 40, 7]
+ loss: 0.3165
+ mae: 0.2483
+ rmse: 0.3308
+Configuracao: [6, 1, 32, 'relu', 20, 7]
+ loss: 0.3166
+ mae: 0.2491
+ rmse: 0.3310
+Configuracao: [6, 1, 128, 'relu', 30, 10]
+ loss: 0.3167
+ mae: 0.2508
+ rmse: 0.3310
+Configuracao: [5, 1, 128, 'relu', 30, 5]
+ loss: 0.3168
+ mae: 0.2484
+ rmse: 0.3309
+Configuracao: [6, 1, 128, 'sigmoid', 15, 10]
+ loss: 0.3168
+ mae: 0.2515
+ rmse: 0.3312
+Configuracao: [5, 1, 128, 'sigmoid', 20, 10]
+ loss: 0.3168
+ mae: 0.2559
+ rmse: 0.3310
+Configuracao: [6, 1, 128, 'relu', 20, 10]
+ loss: 0.3168
+ mae: 0.2514
+ rmse: 0.3311
+Configuracao: [5, 1, 128, 'sigmoid', 20, 7]
+ loss: 0.3169
+ mae: 0.2532
+ rmse: 0.3312
+Configuracao: [5, 1, 64, 'sigmoid', 30, 7]
+ loss: 0.3169
+ mae: 0.2496
+ rmse: 0.3312
+Configuracao: [6, 1, 128, 'relu', 15, 10]
+ loss: 0.3169
+ mae: 0.2515
+ rmse: 0.3312
+Configuracao: [5, 1, 128, 'relu', 40, 5]
+ loss: 0.3169
+ mae: 0.2489
+ rmse: 0.3311
+Configuracao: [6, 1, 128, 'relu', 50, 10]
+ loss: 0.3169
+ mae: 0.2510
+ rmse: 0.3313
+Configuracao: [6, 1, 128, 'relu', 40, 10]
+ loss: 0.3170
+ mae: 0.2510
+ rmse: 0.3313
+Configuracao: [6, 1, 128, 'tanh', 20, 10]
+ loss: 0.3170
+ mae: 0.2496
+ rmse: 0.3312
+Configuracao: [6, 1, 64, 'relu', 20, 7]
+ loss: 0.3170
+ mae: 0.2495
+ rmse: 0.3313
+Configuracao: [6, 1, 128, 'tanh', 30, 10]
+ loss: 0.3170
+ mae: 0.2504
+ rmse: 0.3313
+Configuracao: [3, 1, 128, 'tanh', 15, 2]
+ loss: 0.3170
+ mae: 0.2654
+ rmse: 0.3303
+Configuracao: [3, 1, 32, 'tanh', 50, 2]
+ loss: 0.3171
+ mae: 0.2524
+ rmse: 0.3317
+Configuracao: [7, 1, 128, 'tanh', 40, 10]
+ loss: 0.3171
+ mae: 0.2468
+ rmse: 0.3339
+Configuracao: [6, 1, 64, 'relu', 40, 7]
+ loss: 0.3171
+ mae: 0.2503
+ rmse: 0.3314
+Configuracao: [3, 1, 64, 'relu', 40, 2]
+ loss: 0.3171
+ mae: 0.2544
+ rmse: 0.3313
+Configuracao: [6, 1, 128, 'sigmoid', 30, 10]
+ loss: 0.3171
+ mae: 0.2513
+ rmse: 0.3315
+Configuracao: [3, 1, 128, 'relu', 15, 2]
+ loss: 0.3172
+ mae: 0.2662
+ rmse: 0.3304
+Configuracao: [5, 1, 32, 'sigmoid', 50, 5]
+ loss: 0.3172
+ mae: 0.2502
+ rmse: 0.3317
+Configuracao: [6, 1, 128, 'tanh', 40, 10]
+ loss: 0.3173
+ mae: 0.2513
+ rmse: 0.3316
+Configuracao: [5, 1, 64, 'tanh', 40, 5]
+ loss: 0.3173
+ mae: 0.2498
+ rmse: 0.3316
+Configuracao: [7, 1, 128, 'tanh', 50, 10]
+ loss: 0.3173
+ mae: 0.2468
+ rmse: 0.3342
+Configuracao: [6, 1, 64, 'relu', 15, 7]
+ loss: 0.3173
+ mae: 0.2514
+ rmse: 0.3316
+Configuracao: [5, 1, 64, 'tanh', 15, 5]
+ loss: 0.3173
+ mae: 0.2475
+ rmse: 0.3313
+Configuracao: [3, 1, 128, 'relu', 20, 2]
+ loss: 0.3174
+ mae: 0.2650
+ rmse: 0.3310
+Configuracao: [7, 1, 32, 'relu', 20, 10]
+ loss: 0.3174
+ mae: 0.2476
+ rmse: 0.3343
+Configuracao: [3, 1, 64, 'sigmoid', 15, 2]
+ loss: 0.3175
+ mae: 0.2683
+ rmse: 0.3309
+Configuracao: [7, 1, 32, 'relu', 15, 10]
+ loss: 0.3175
+ mae: 0.2471
+ rmse: 0.3344
+Configuracao: [7, 1, 32, 'sigmoid', 30, 10]
+ loss: 0.3175
+ mae: 0.2480
+ rmse: 0.3344
+Configuracao: [7, 1, 32, 'relu', 30, 10]
+ loss: 0.3176
+ mae: 0.2483
+ rmse: 0.3345
+Configuracao: [6, 1, 64, 'tanh', 40, 7]
+ loss: 0.3176
+ mae: 0.2501
+ rmse: 0.3319
+Configuracao: [6, 1, 64, 'relu', 50, 7]
+ loss: 0.3176
+ mae: 0.2509
+ rmse: 0.3320
+Configuracao: [5, 1, 32, 'sigmoid', 15, 7]
+ loss: 0.3176
+ mae: 0.2528
+ rmse: 0.3323
+Configuracao: [6, 1, 32, 'relu', 15, 5]
+ loss: 0.3177
+ mae: 0.2506
+ rmse: 0.3320
+Configuracao: [5, 1, 128, 'relu', 20, 5]
+ loss: 0.3177
+ mae: 0.2483
+ rmse: 0.3318
+Configuracao: [3, 1, 64, 'tanh', 15, 2]
+ loss: 0.3177
+ mae: 0.2650
+ rmse: 0.3315
+Configuracao: [6, 1, 128, 'sigmoid', 40, 10]
+ loss: 0.3177
+ mae: 0.2552
+ rmse: 0.3319
+Configuracao: [6, 1, 128, 'tanh', 15, 10]
+ loss: 0.3177
+ mae: 0.2510
+ rmse: 0.3319
+Configuracao: [6, 1, 64, 'tanh', 30, 7]
+ loss: 0.3177
+ mae: 0.2500
+ rmse: 0.3320
+Configuracao: [6, 1, 32, 'sigmoid', 50, 10]
+ loss: 0.3178
+ mae: 0.2517
+ rmse: 0.3324
+Configuracao: [7, 1, 32, 'relu', 50, 10]
+ loss: 0.3178
+ mae: 0.2486
+ rmse: 0.3348
+Configuracao: [5, 1, 64, 'sigmoid', 20, 7]
+ loss: 0.3178
+ mae: 0.2513
+ rmse: 0.3322
+Configuracao: [7, 1, 32, 'tanh', 50, 10]
+ loss: 0.3179
+ mae: 0.2483
+ rmse: 0.3348
+Configuracao: [6, 1, 128, 'sigmoid', 20, 7]
+ loss: 0.3180
+ mae: 0.2460
+ rmse: 0.3320
+Configuracao: [7, 1, 32, 'relu', 40, 10]
+ loss: 0.3180
+ mae: 0.2488
+ rmse: 0.3349
+Configuracao: [7, 1, 32, 'tanh', 30, 10]
+ loss: 0.3180
+ mae: 0.2489
+ rmse: 0.3348
+Configuracao: [6, 1, 64, 'sigmoid', 15, 10]
+ loss: 0.3181
+ mae: 0.2508
+ rmse: 0.3328
+Configuracao: [7, 1, 32, 'tanh', 40, 10]
+ loss: 0.3181
+ mae: 0.2492
+ rmse: 0.3350
+Configuracao: [7, 1, 32, 'relu', 30, 7]
+ loss: 0.3182
+ mae: 0.2497
+ rmse: 0.3351
+Configuracao: [7, 1, 64, 'relu', 30, 10]
+ loss: 0.3182
+ mae: 0.2511
+ rmse: 0.3350
+Configuracao: [6, 1, 64, 'tanh', 20, 7]
+ loss: 0.3183
+ mae: 0.2504
+ rmse: 0.3325
+Configuracao: [7, 1, 64, 'relu', 50, 10]
+ loss: 0.3183
+ mae: 0.2503
+ rmse: 0.3351
+Configuracao: [6, 1, 32, 'relu', 20, 5]
+ loss: 0.3183
+ mae: 0.2505
+ rmse: 0.3327
+Configuracao: [6, 1, 32, 'relu', 30, 5]
+ loss: 0.3183
+ mae: 0.2499
+ rmse: 0.3328
+Configuracao: [7, 1, 32, 'tanh', 20, 10]
+ loss: 0.3184
+ mae: 0.2470
+ rmse: 0.3352
+Configuracao: [6, 1, 64, 'relu', 30, 7]
+ loss: 0.3184
+ mae: 0.2525
+ rmse: 0.3327
+Configuracao: [7, 1, 64, 'tanh', 50, 10]
+ loss: 0.3184
+ mae: 0.2505
+ rmse: 0.3353
+Configuracao: [7, 1, 64, 'relu', 15, 10]
+ loss: 0.3184
+ mae: 0.2513
+ rmse: 0.3353
+Configuracao: [3, 1, 32, 'tanh', 40, 2]
+ loss: 0.3184
+ mae: 0.2533
+ rmse: 0.3331
+Configuracao: [6, 1, 64, 'tanh', 15, 7]
+ loss: 0.3184
+ mae: 0.2496
+ rmse: 0.3327
+Configuracao: [7, 1, 32, 'relu', 50, 7]
+ loss: 0.3184
+ mae: 0.2499
+ rmse: 0.3353
+Configuracao: [6, 1, 128, 'relu', 30, 7]
+ loss: 0.3184
+ mae: 0.2515
+ rmse: 0.3328
+Configuracao: [7, 1, 32, 'sigmoid', 50, 7]
+ loss: 0.3185
+ mae: 0.2510
+ rmse: 0.3353
+Configuracao: [6, 1, 128, 'tanh', 50, 10]
+ loss: 0.3185
+ mae: 0.2533
+ rmse: 0.3329
+Configuracao: [6, 1, 128, 'relu', 40, 7]
+ loss: 0.3185
+ mae: 0.2518
+ rmse: 0.3328
+Configuracao: [7, 1, 64, 'relu', 20, 10]
+ loss: 0.3186
+ mae: 0.2514
+ rmse: 0.3354
+Configuracao: [7, 1, 128, 'sigmoid', 40, 10]
+ loss: 0.3187
+ mae: 0.2517
+ rmse: 0.3353
+Configuracao: [7, 1, 64, 'relu', 40, 10]
+ loss: 0.3188
+ mae: 0.2517
+ rmse: 0.3356
+Configuracao: [7, 1, 32, 'sigmoid', 50, 10]
+ loss: 0.3188
+ mae: 0.2498
+ rmse: 0.3360
+Configuracao: [7, 1, 32, 'relu', 20, 7]
+ loss: 0.3188
+ mae: 0.2505
+ rmse: 0.3357
+Configuracao: [3, 1, 64, 'sigmoid', 20, 5]
+ loss: 0.3188
+ mae: 0.2447
+ rmse: 0.3336
+Configuracao: [7, 1, 128, 'relu', 40, 10]
+ loss: 0.3188
+ mae: 0.2508
+ rmse: 0.3357
+Configuracao: [7, 1, 64, 'tanh', 40, 10]
+ loss: 0.3188
+ mae: 0.2514
+ rmse: 0.3357
+Configuracao: [3, 1, 64, 'sigmoid', 30, 5]
+ loss: 0.3189
+ mae: 0.2457
+ rmse: 0.3338
+Configuracao: [7, 1, 32, 'relu', 15, 7]
+ loss: 0.3189
+ mae: 0.2490
+ rmse: 0.3358
+Configuracao: [7, 1, 64, 'tanh', 30, 10]
+ loss: 0.3190
+ mae: 0.2511
+ rmse: 0.3358
+Configuracao: [6, 1, 64, 'tanh', 50, 7]
+ loss: 0.3190
+ mae: 0.2526
+ rmse: 0.3336
+Configuracao: [7, 1, 64, 'tanh', 15, 10]
+ loss: 0.3190
+ mae: 0.2503
+ rmse: 0.3359
+Configuracao: [7, 1, 64, 'tanh', 20, 10]
+ loss: 0.3191
+ mae: 0.2507
+ rmse: 0.3359
+Configuracao: [7, 1, 32, 'relu', 40, 7]
+ loss: 0.3191
+ mae: 0.2506
+ rmse: 0.3360
+Configuracao: [5, 1, 32, 'sigmoid', 50, 10]
+ loss: 0.3191
+ mae: 0.2517
+ rmse: 0.3341
+Configuracao: [7, 1, 32, 'tanh', 15, 10]
+ loss: 0.3191
+ mae: 0.2473
+ rmse: 0.3361
+Configuracao: [7, 1, 128, 'relu', 50, 10]
+ loss: 0.3192
+ mae: 0.2524
+ rmse: 0.3360
+Configuracao: [6, 1, 32, 'relu', 50, 5]
+ loss: 0.3192
+ mae: 0.2524
+ rmse: 0.3336
+Configuracao: [7, 1, 32, 'tanh', 20, 7]
+ loss: 0.3192
+ mae: 0.2490
+ rmse: 0.3361
+Configuracao: [5, 1, 128, 'relu', 15, 5]
+ loss: 0.3193
+ mae: 0.2497
+ rmse: 0.3334
+Configuracao: [6, 1, 128, 'tanh', 30, 7]
+ loss: 0.3193
+ mae: 0.2519
+ rmse: 0.3337
+Configuracao: [6, 1, 128, 'sigmoid', 20, 10]
+ loss: 0.3193
+ mae: 0.2597
+ rmse: 0.3339
+Configuracao: [5, 1, 128, 'tanh', 30, 5]
+ loss: 0.3194
+ mae: 0.2503
+ rmse: 0.3336
+Configuracao: [7, 1, 128, 'relu', 20, 10]
+ loss: 0.3194
+ mae: 0.2520
+ rmse: 0.3363
+Configuracao: [6, 1, 128, 'relu', 20, 7]
+ loss: 0.3195
+ mae: 0.2525
+ rmse: 0.3337
+Configuracao: [7, 1, 32, 'relu', 15, 5]
+ loss: 0.3195
+ mae: 0.2528
+ rmse: 0.3364
+Configuracao: [6, 1, 128, 'tanh', 20, 7]
+ loss: 0.3195
+ mae: 0.2516
+ rmse: 0.3338
+Configuracao: [6, 1, 32, 'tanh', 30, 5]
+ loss: 0.3196
+ mae: 0.2519
+ rmse: 0.3340
+Configuracao: [7, 1, 128, 'tanh', 30, 10]
+ loss: 0.3196
+ mae: 0.2511
+ rmse: 0.3365
+Configuracao: [7, 1, 64, 'sigmoid', 40, 10]
+ loss: 0.3196
+ mae: 0.2559
+ rmse: 0.3367
+Configuracao: [6, 1, 128, 'relu', 15, 7]
+ loss: 0.3196
+ mae: 0.2516
+ rmse: 0.3339
+Configuracao: [6, 1, 32, 'sigmoid', 15, 10]
+ loss: 0.3196
+ mae: 0.2521
+ rmse: 0.3345
+Configuracao: [7, 1, 32, 'tanh', 30, 7]
+ loss: 0.3196
+ mae: 0.2506
+ rmse: 0.3366
+Configuracao: [7, 1, 128, 'relu', 30, 10]
+ loss: 0.3196
+ mae: 0.2529
+ rmse: 0.3365
+Configuracao: [6, 1, 32, 'tanh', 20, 5]
+ loss: 0.3197
+ mae: 0.2517
+ rmse: 0.3341
+Configuracao: [7, 1, 64, 'relu', 50, 7]
+ loss: 0.3199
+ mae: 0.2515
+ rmse: 0.3368
+Configuracao: [6, 1, 32, 'relu', 40, 5]
+ loss: 0.3199
+ mae: 0.2517
+ rmse: 0.3346
+Configuracao: [7, 1, 128, 'relu', 15, 10]
+ loss: 0.3200
+ mae: 0.2529
+ rmse: 0.3368
+Configuracao: [6, 1, 32, 'sigmoid', 40, 5]
+ loss: 0.3200
+ mae: 0.2535
+ rmse: 0.3350
+Configuracao: [6, 1, 32, 'sigmoid', 15, 7]
+ loss: 0.3200
+ mae: 0.2543
+ rmse: 0.3348
+Configuracao: [6, 1, 32, 'sigmoid', 30, 10]
+ loss: 0.3200
+ mae: 0.2544
+ rmse: 0.3349
+Configuracao: [7, 1, 32, 'tanh', 40, 7]
+ loss: 0.3201
+ mae: 0.2510
+ rmse: 0.3370
+Configuracao: [7, 1, 32, 'tanh', 15, 7]
+ loss: 0.3201
+ mae: 0.2509
+ rmse: 0.3370
+Configuracao: [7, 1, 32, 'sigmoid', 15, 7]
+ loss: 0.3201
+ mae: 0.2527
+ rmse: 0.3373
+Configuracao: [6, 1, 32, 'tanh', 50, 5]
+ loss: 0.3201
+ mae: 0.2524
+ rmse: 0.3347
+Configuracao: [3, 1, 64, 'sigmoid', 15, 5]
+ loss: 0.3201
+ mae: 0.2466
+ rmse: 0.3350
+Configuracao: [7, 1, 64, 'sigmoid', 50, 10]
+ loss: 0.3201
+ mae: 0.2532
+ rmse: 0.3371
+Configuracao: [6, 1, 128, 'relu', 50, 7]
+ loss: 0.3202
+ mae: 0.2543
+ rmse: 0.3347
+Configuracao: [5, 1, 32, 'sigmoid', 30, 7]
+ loss: 0.3202
+ mae: 0.2558
+ rmse: 0.3351
+Configuracao: [6, 1, 64, 'relu', 20, 5]
+ loss: 0.3202
+ mae: 0.2556
+ rmse: 0.3346
+Configuracao: [7, 1, 32, 'tanh', 50, 7]
+ loss: 0.3202
+ mae: 0.2517
+ rmse: 0.3373
+Configuracao: [5, 1, 128, 'tanh', 20, 5]
+ loss: 0.3202
+ mae: 0.2508
+ rmse: 0.3343
+Configuracao: [6, 1, 32, 'tanh', 40, 5]
+ loss: 0.3205
+ mae: 0.2521
+ rmse: 0.3349
+Configuracao: [5, 1, 32, 'sigmoid', 40, 7]
+ loss: 0.3205
+ mae: 0.2555
+ rmse: 0.3356
+Configuracao: [7, 1, 128, 'tanh', 20, 10]
+ loss: 0.3205
+ mae: 0.2527
+ rmse: 0.3374
+Configuracao: [7, 1, 64, 'relu', 30, 7]
+ loss: 0.3206
+ mae: 0.2526
+ rmse: 0.3375
+Configuracao: [3, 1, 128, 'tanh', 20, 2]
+ loss: 0.3206
+ mae: 0.2693
+ rmse: 0.3341
+Configuracao: [7, 1, 64, 'sigmoid', 30, 10]
+ loss: 0.3207
+ mae: 0.2530
+ rmse: 0.3380
+Configuracao: [6, 1, 128, 'tanh', 40, 7]
+ loss: 0.3207
+ mae: 0.2540
+ rmse: 0.3353
+Configuracao: [6, 1, 32, 'tanh', 15, 5]
+ loss: 0.3208
+ mae: 0.2535
+ rmse: 0.3352
+Configuracao: [3, 1, 32, 'relu', 20, 2]
+ loss: 0.3209
+ mae: 0.2585
+ rmse: 0.3356
+Configuracao: [7, 1, 64, 'relu', 40, 7]
+ loss: 0.3210
+ mae: 0.2534
+ rmse: 0.3380
+Configuracao: [6, 1, 64, 'relu', 30, 5]
+ loss: 0.3210
+ mae: 0.2535
+ rmse: 0.3355
+Configuracao: [6, 1, 128, 'tanh', 15, 7]
+ loss: 0.3211
+ mae: 0.2526
+ rmse: 0.3353
+Configuracao: [7, 1, 64, 'sigmoid', 20, 10]
+ loss: 0.3211
+ mae: 0.2552
+ rmse: 0.3382
+Configuracao: [7, 1, 64, 'tanh', 40, 7]
+ loss: 0.3211
+ mae: 0.2529
+ rmse: 0.3382
+Configuracao: [5, 1, 64, 'sigmoid', 15, 7]
+ loss: 0.3212
+ mae: 0.2559
+ rmse: 0.3359
+Configuracao: [5, 1, 128, 'sigmoid', 40, 10]
+ loss: 0.3213
+ mae: 0.2578
+ rmse: 0.3358
+Configuracao: [7, 1, 64, 'tanh', 30, 7]
+ loss: 0.3213
+ mae: 0.2518
+ rmse: 0.3382
+Configuracao: [7, 1, 64, 'sigmoid', 15, 10]
+ loss: 0.3214
+ mae: 0.2561
+ rmse: 0.3386
+Configuracao: [7, 1, 64, 'relu', 15, 7]
+ loss: 0.3214
+ mae: 0.2533
+ rmse: 0.3383
+Configuracao: [7, 1, 32, 'tanh', 30, 5]
+ loss: 0.3214
+ mae: 0.2537
+ rmse: 0.3383
+Configuracao: [7, 1, 128, 'tanh', 15, 10]
+ loss: 0.3215
+ mae: 0.2543
+ rmse: 0.3383
+Configuracao: [5, 1, 32, 'sigmoid', 40, 5]
+ loss: 0.3215
+ mae: 0.2561
+ rmse: 0.3363
+Configuracao: [7, 1, 32, 'relu', 30, 5]
+ loss: 0.3215
+ mae: 0.2520
+ rmse: 0.3384
+Configuracao: [5, 1, 128, 'sigmoid', 15, 10]
+ loss: 0.3216
+ mae: 0.2544
+ rmse: 0.3360
+Configuracao: [7, 1, 32, 'sigmoid', 20, 7]
+ loss: 0.3216
+ mae: 0.2548
+ rmse: 0.3389
+Configuracao: [7, 1, 32, 'relu', 40, 5]
+ loss: 0.3217
+ mae: 0.2532
+ rmse: 0.3388
+Configuracao: [6, 1, 64, 'sigmoid', 20, 10]
+ loss: 0.3217
+ mae: 0.2567
+ rmse: 0.3368
+Configuracao: [7, 1, 32, 'relu', 20, 5]
+ loss: 0.3218
+ mae: 0.2528
+ rmse: 0.3387
+Configuracao: [6, 1, 32, 'sigmoid', 40, 7]
+ loss: 0.3218
+ mae: 0.2566
+ rmse: 0.3367
+Configuracao: [6, 1, 64, 'relu', 15, 5]
+ loss: 0.3218
+ mae: 0.2548
+ rmse: 0.3361
+Configuracao: [5, 1, 32, 'sigmoid', 20, 5]
+ loss: 0.3219
+ mae: 0.2565
+ rmse: 0.3366
+Configuracao: [5, 1, 128, 'tanh', 15, 5]
+ loss: 0.3219
+ mae: 0.2524
+ rmse: 0.3359
+Configuracao: [6, 1, 32, 'sigmoid', 30, 5]
+ loss: 0.3219
+ mae: 0.2586
+ rmse: 0.3370
+Configuracao: [7, 1, 128, 'sigmoid', 15, 7]
+ loss: 0.3219
+ mae: 0.2454
+ rmse: 0.3389
+Configuracao: [7, 1, 64, 'relu', 20, 7]
+ loss: 0.3219
+ mae: 0.2535
+ rmse: 0.3388
+Configuracao: [6, 1, 64, 'sigmoid', 30, 7]
+ loss: 0.3221
+ mae: 0.2560
+ rmse: 0.3367
+Configuracao: [7, 1, 128, 'relu', 40, 7]
+ loss: 0.3221
+ mae: 0.2548
+ rmse: 0.3392
+Configuracao: [6, 1, 64, 'sigmoid', 50, 7]
+ loss: 0.3223
+ mae: 0.2556
+ rmse: 0.3370
+Configuracao: [7, 1, 32, 'sigmoid', 15, 10]
+ loss: 0.3224
+ mae: 0.2551
+ rmse: 0.3400
+Configuracao: [7, 1, 64, 'tanh', 20, 7]
+ loss: 0.3225
+ mae: 0.2531
+ rmse: 0.3395
+Configuracao: [7, 1, 32, 'sigmoid', 30, 7]
+ loss: 0.3226
+ mae: 0.2555
+ rmse: 0.3399
+Configuracao: [7, 1, 128, 'relu', 50, 7]
+ loss: 0.3227
+ mae: 0.2552
+ rmse: 0.3400
+Configuracao: [7, 1, 64, 'tanh', 15, 7]
+ loss: 0.3229
+ mae: 0.2535
+ rmse: 0.3398
+Configuracao: [7, 1, 32, 'tanh', 20, 5]
+ loss: 0.3229
+ mae: 0.2548
+ rmse: 0.3398
+Configuracao: [7, 1, 128, 'relu', 15, 7]
+ loss: 0.3229
+ mae: 0.2549
+ rmse: 0.3398
+Configuracao: [7, 1, 128, 'relu', 30, 7]
+ loss: 0.3231
+ mae: 0.2553
+ rmse: 0.3401
+Configuracao: [7, 1, 128, 'tanh', 30, 7]
+ loss: 0.3231
+ mae: 0.2553
+ rmse: 0.3402
+Configuracao: [5, 1, 64, 'sigmoid', 50, 7]
+ loss: 0.3233
+ mae: 0.2573
+ rmse: 0.3382
+Configuracao: [7, 1, 64, 'tanh', 50, 7]
+ loss: 0.3233
+ mae: 0.2557
+ rmse: 0.3407
+Configuracao: [6, 1, 64, 'relu', 50, 5]
+ loss: 0.3234
+ mae: 0.2570
+ rmse: 0.3380
+Configuracao: [6, 1, 64, 'sigmoid', 30, 10]
+ loss: 0.3234
+ mae: 0.2601
+ rmse: 0.3383
+Configuracao: [6, 1, 64, 'tanh', 30, 5]
+ loss: 0.3235
+ mae: 0.2567
+ rmse: 0.3379
+Configuracao: [7, 1, 32, 'tanh', 40, 5]
+ loss: 0.3235
+ mae: 0.2552
+ rmse: 0.3407
+Configuracao: [7, 1, 128, 'relu', 20, 7]
+ loss: 0.3236
+ mae: 0.2550
+ rmse: 0.3405
+Configuracao: [6, 1, 64, 'tanh', 20, 5]
+ loss: 0.3236
+ mae: 0.2568
+ rmse: 0.3379
+Configuracao: [6, 1, 64, 'relu', 40, 5]
+ loss: 0.3237
+ mae: 0.2562
+ rmse: 0.3382
+Configuracao: [7, 1, 128, 'sigmoid', 15, 10]
+ loss: 0.3238
+ mae: 0.2620
+ rmse: 0.3410
+Configuracao: [7, 1, 32, 'sigmoid', 40, 10]
+ loss: 0.3238
+ mae: 0.2562
+ rmse: 0.3416
+Configuracao: [6, 1, 64, 'tanh', 40, 5]
+ loss: 0.3239
+ mae: 0.2564
+ rmse: 0.3386
+Configuracao: [6, 1, 64, 'sigmoid', 20, 7]
+ loss: 0.3239
+ mae: 0.2581
+ rmse: 0.3386
+Configuracao: [7, 1, 128, 'tanh', 40, 7]
+ loss: 0.3241
+ mae: 0.2556
+ rmse: 0.3414
+Configuracao: [6, 1, 64, 'sigmoid', 50, 10]
+ loss: 0.3243
+ mae: 0.2609
+ rmse: 0.3390
+Configuracao: [7, 1, 128, 'tanh', 20, 7]
+ loss: 0.3243
+ mae: 0.2550
+ rmse: 0.3413
+Configuracao: [5, 1, 128, 'tanh', 40, 5]
+ loss: 0.3243
+ mae: 0.2562
+ rmse: 0.3392
+Configuracao: [6, 1, 32, 'sigmoid', 20, 10]
+ loss: 0.3244
+ mae: 0.2589
+ rmse: 0.3396
+Configuracao: [7, 1, 64, 'relu', 40, 5]
+ loss: 0.3246
+ mae: 0.2558
+ rmse: 0.3418
+Configuracao: [5, 1, 32, 'sigmoid', 30, 5]
+ loss: 0.3248
+ mae: 0.2618
+ rmse: 0.3401
+Configuracao: [5, 1, 128, 'sigmoid', 40, 7]
+ loss: 0.3248
+ mae: 0.2556
+ rmse: 0.3394
+Configuracao: [3, 1, 32, 'tanh', 30, 2]
+ loss: 0.3249
+ mae: 0.2600
+ rmse: 0.3397
+Configuracao: [6, 1, 64, 'tanh', 15, 5]
+ loss: 0.3249
+ mae: 0.2576
+ rmse: 0.3392
+Configuracao: [6, 1, 32, 'sigmoid', 30, 7]
+ loss: 0.3250
+ mae: 0.2597
+ rmse: 0.3404
+Configuracao: [7, 1, 32, 'tanh', 15, 5]
+ loss: 0.3251
+ mae: 0.2558
+ rmse: 0.3421
+Configuracao: [7, 1, 64, 'relu', 20, 5]
+ loss: 0.3252
+ mae: 0.2572
+ rmse: 0.3423
+Configuracao: [5, 1, 64, 'tanh', 50, 5]
+ loss: 0.3252
+ mae: 0.2576
+ rmse: 0.3406
+Configuracao: [6, 1, 128, 'relu', 30, 5]
+ loss: 0.3253
+ mae: 0.2584
+ rmse: 0.3401
+Configuracao: [7, 1, 64, 'relu', 30, 5]
+ loss: 0.3254
+ mae: 0.2559
+ rmse: 0.3426
+Configuracao: [7, 1, 128, 'tanh', 15, 7]
+ loss: 0.3258
+ mae: 0.2563
+ rmse: 0.3427
+Configuracao: [6, 1, 128, 'relu', 20, 5]
+ loss: 0.3259
+ mae: 0.2590
+ rmse: 0.3402
+Configuracao: [7, 1, 32, 'sigmoid', 40, 7]
+ loss: 0.3260
+ mae: 0.2603
+ rmse: 0.3436
+Configuracao: [7, 1, 32, 'sigmoid', 15, 5]
+ loss: 0.3263
+ mae: 0.2613
+ rmse: 0.3436
+Configuracao: [5, 1, 32, 'sigmoid', 15, 5]
+ loss: 0.3263
+ mae: 0.2621
+ rmse: 0.3415
+Configuracao: [6, 1, 32, 'sigmoid', 50, 5]
+ loss: 0.3263
+ mae: 0.2590
+ rmse: 0.3413
+Configuracao: [7, 1, 32, 'relu', 50, 5]
+ loss: 0.3263
+ mae: 0.2581
+ rmse: 0.3441
+Configuracao: [7, 1, 128, 'sigmoid', 30, 10]
+ loss: 0.3264
+ mae: 0.2621
+ rmse: 0.3435
+Configuracao: [7, 1, 32, 'tanh', 50, 5]
+ loss: 0.3265
+ mae: 0.2583
+ rmse: 0.3442
+Configuracao: [7, 1, 64, 'relu', 15, 5]
+ loss: 0.3266
+ mae: 0.2577
+ rmse: 0.3436
+Configuracao: [7, 1, 32, 'sigmoid', 20, 10]
+ loss: 0.3266
+ mae: 0.2607
+ rmse: 0.3446
+Configuracao: [3, 1, 64, 'tanh', 50, 2]
+ loss: 0.3267
+ mae: 0.2636
+ rmse: 0.3413
+Configuracao: [7, 1, 128, 'sigmoid', 20, 10]
+ loss: 0.3268
+ mae: 0.2654
+ rmse: 0.3436
+Configuracao: [7, 1, 64, 'sigmoid', 20, 7]
+ loss: 0.3268
+ mae: 0.2621
+ rmse: 0.3445
+Configuracao: [7, 1, 64, 'tanh', 30, 5]
+ loss: 0.3271
+ mae: 0.2599
+ rmse: 0.3443
+Configuracao: [5, 1, 128, 'sigmoid', 50, 7]
+ loss: 0.3272
+ mae: 0.2582
+ rmse: 0.3420
+Configuracao: [7, 1, 64, 'sigmoid', 40, 7]
+ loss: 0.3273
+ mae: 0.2607
+ rmse: 0.3447
+Configuracao: [7, 1, 64, 'tanh', 20, 5]
+ loss: 0.3274
+ mae: 0.2597
+ rmse: 0.3444
+Configuracao: [6, 1, 64, 'sigmoid', 40, 7]
+ loss: 0.3275
+ mae: 0.2625
+ rmse: 0.3427
+Configuracao: [7, 1, 128, 'tanh', 50, 7]
+ loss: 0.3277
+ mae: 0.2597
+ rmse: 0.3456
+Configuracao: [7, 1, 128, 'sigmoid', 50, 7]
+ loss: 0.3279
+ mae: 0.2627
+ rmse: 0.3452
+Configuracao: [6, 1, 128, 'tanh', 20, 5]
+ loss: 0.3281
+ mae: 0.2635
+ rmse: 0.3425
+Configuracao: [6, 1, 128, 'relu', 15, 5]
+ loss: 0.3282
+ mae: 0.2640
+ rmse: 0.3425
+Configuracao: [3, 1, 32, 'tanh', 15, 2]
+ loss: 0.3286
+ mae: 0.2680
+ rmse: 0.3431
+Configuracao: [7, 1, 32, 'sigmoid', 50, 5]
+ loss: 0.3288
+ mae: 0.2607
+ rmse: 0.3464
+Configuracao: [7, 1, 64, 'tanh', 15, 5]
+ loss: 0.3288
+ mae: 0.2609
+ rmse: 0.3458
+Configuracao: [6, 1, 128, 'tanh', 30, 5]
+ loss: 0.3288
+ mae: 0.2632
+ rmse: 0.3435
+Configuracao: [3, 1, 128, 'relu', 50, 2]
+ loss: 0.3289
+ mae: 0.2678
+ rmse: 0.3434
+Configuracao: [7, 1, 64, 'sigmoid', 15, 7]
+ loss: 0.3295
+ mae: 0.2648
+ rmse: 0.3470
+Configuracao: [6, 1, 128, 'sigmoid', 40, 7]
+ loss: 0.3295
+ mae: 0.2612
+ rmse: 0.3442
+Configuracao: [6, 1, 128, 'tanh', 15, 5]
+ loss: 0.3296
+ mae: 0.2623
+ rmse: 0.3439
+Configuracao: [6, 1, 64, 'tanh', 50, 5]
+ loss: 0.3300
+ mae: 0.2612
+ rmse: 0.3455
+Configuracao: [7, 1, 32, 'sigmoid', 40, 5]
+ loss: 0.3300
+ mae: 0.2622
+ rmse: 0.3477
+Configuracao: [5, 1, 32, 'relu', 50, 2]
+ loss: 0.3300
+ mae: 0.2697
+ rmse: 0.3451
+Configuracao: [6, 1, 64, 'sigmoid', 15, 7]
+ loss: 0.3301
+ mae: 0.2666
+ rmse: 0.3453
+Configuracao: [7, 1, 128, 'relu', 30, 5]
+ loss: 0.3302
+ mae: 0.2639
+ rmse: 0.3475
+Configuracao: [7, 1, 64, 'tanh', 40, 5]
+ loss: 0.3305
+ mae: 0.2627
+ rmse: 0.3484
+Configuracao: [7, 1, 128, 'relu', 20, 5]
+ loss: 0.3305
+ mae: 0.2620
+ rmse: 0.3476
+Configuracao: [3, 1, 128, 'tanh', 50, 2]
+ loss: 0.3308
+ mae: 0.2707
+ rmse: 0.3453
+Configuracao: [3, 1, 32, 'tanh', 20, 2]
+ loss: 0.3308
+ mae: 0.2680
+ rmse: 0.3456
+Configuracao: [7, 1, 64, 'relu', 50, 5]
+ loss: 0.3310
+ mae: 0.2650
+ rmse: 0.3486
+Configuracao: [7, 1, 64, 'sigmoid', 50, 7]
+ loss: 0.3317
+ mae: 0.2657
+ rmse: 0.3495
+Configuracao: [5, 1, 64, 'sigmoid', 40, 5]
+ loss: 0.3317
+ mae: 0.2636
+ rmse: 0.3467
+Configuracao: [5, 1, 32, 'relu', 40, 2]
+ loss: 0.3319
+ mae: 0.2729
+ rmse: 0.3462
+Configuracao: [7, 1, 128, 'sigmoid', 50, 10]
+ loss: 0.3319
+ mae: 0.2655
+ rmse: 0.3491
+Configuracao: [3, 1, 128, 'relu', 30, 2]
+ loss: 0.3319
+ mae: 0.2752
+ rmse: 0.3459
+Configuracao: [3, 1, 64, 'relu', 20, 2]
+ loss: 0.3320
+ mae: 0.2727
+ rmse: 0.3465
+Configuracao: [6, 1, 32, 'sigmoid', 15, 5]
+ loss: 0.3320
+ mae: 0.2663
+ rmse: 0.3476
+Configuracao: [7, 1, 64, 'sigmoid', 30, 7]
+ loss: 0.3321
+ mae: 0.2676
+ rmse: 0.3501
+Configuracao: [6, 1, 128, 'tanh', 40, 5]
+ loss: 0.3321
+ mae: 0.2658
+ rmse: 0.3474
+Configuracao: [3, 1, 128, 'sigmoid', 20, 2]
+ loss: 0.3321
+ mae: 0.2850
+ rmse: 0.3445
+Configuracao: [6, 1, 32, 'tanh', 15, 2]
+ loss: 0.3322
+ mae: 0.2822
+ rmse: 0.3461
+Configuracao: [6, 1, 32, 'sigmoid', 20, 5]
+ loss: 0.3324
+ mae: 0.2660
+ rmse: 0.3479
+Configuracao: [3, 1, 32, 'relu', 15, 2]
+ loss: 0.3327
+ mae: 0.2699
+ rmse: 0.3477
+Configuracao: [5, 1, 64, 'relu', 50, 2]
+ loss: 0.3330
+ mae: 0.2747
+ rmse: 0.3479
+Configuracao: [5, 1, 64, 'sigmoid', 15, 5]
+ loss: 0.3331
+ mae: 0.2641
+ rmse: 0.3480
+Configuracao: [7, 1, 128, 'tanh', 30, 5]
+ loss: 0.3331
+ mae: 0.2669
+ rmse: 0.3506
+Configuracao: [3, 1, 64, 'relu', 30, 2]
+ loss: 0.3335
+ mae: 0.2701
+ rmse: 0.3482
+Configuracao: [5, 1, 128, 'sigmoid', 30, 7]
+ loss: 0.3336
+ mae: 0.2535
+ rmse: 0.3493
+Configuracao: [7, 1, 128, 'relu', 40, 5]
+ loss: 0.3337
+ mae: 0.2666
+ rmse: 0.3514
+Configuracao: [3, 1, 128, 'relu', 40, 2]
+ loss: 0.3339
+ mae: 0.2732
+ rmse: 0.3483
+Configuracao: [7, 1, 128, 'tanh', 20, 5]
+ loss: 0.3339
+ mae: 0.2674
+ rmse: 0.3511
+Configuracao: [7, 1, 128, 'relu', 15, 5]
+ loss: 0.3340
+ mae: 0.2675
+ rmse: 0.3511
+Configuracao: [6, 1, 128, 'tanh', 50, 7]
+ loss: 0.3341
+ mae: 0.2662
+ rmse: 0.3507
+Configuracao: [5, 1, 128, 'tanh', 50, 5]
+ loss: 0.3341
+ mae: 0.2661
+ rmse: 0.3501
+Configuracao: [3, 1, 64, 'sigmoid', 20, 2]
+ loss: 0.3341
+ mae: 0.2821
+ rmse: 0.3481
+Configuracao: [6, 1, 128, 'relu', 40, 5]
+ loss: 0.3342
+ mae: 0.2669
+ rmse: 0.3494
+Configuracao: [3, 1, 64, 'relu', 15, 2]
+ loss: 0.3345
+ mae: 0.2762
+ rmse: 0.3490
+Configuracao: [3, 1, 64, 'sigmoid', 50, 2]
+ loss: 0.3347
+ mae: 0.2848
+ rmse: 0.3481
+Configuracao: [5, 1, 32, 'tanh', 50, 2]
+ loss: 0.3348
+ mae: 0.2747
+ rmse: 0.3498
+Configuracao: [7, 1, 128, 'tanh', 15, 5]
+ loss: 0.3351
+ mae: 0.2663
+ rmse: 0.3522
+Configuracao: [3, 1, 64, 'tanh', 40, 2]
+ loss: 0.3355
+ mae: 0.2717
+ rmse: 0.3505
+Configuracao: [5, 1, 64, 'sigmoid', 30, 5]
+ loss: 0.3362
+ mae: 0.2683
+ rmse: 0.3515
+Configuracao: [7, 1, 128, 'tanh', 40, 5]
+ loss: 0.3364
+ mae: 0.2696
+ rmse: 0.3546
+Configuracao: [3, 1, 128, 'sigmoid', 15, 2]
+ loss: 0.3365
+ mae: 0.2882
+ rmse: 0.3491
+Configuracao: [7, 1, 32, 'sigmoid', 30, 5]
+ loss: 0.3366
+ mae: 0.2695
+ rmse: 0.3556
+Configuracao: [6, 1, 64, 'relu', 15, 2]
+ loss: 0.3368
+ mae: 0.2879
+ rmse: 0.3508
+Configuracao: [7, 1, 32, 'sigmoid', 20, 5]
+ loss: 0.3368
+ mae: 0.2708
+ rmse: 0.3551
+Configuracao: [5, 1, 128, 'relu', 50, 5]
+ loss: 0.3371
+ mae: 0.2710
+ rmse: 0.3531
+Configuracao: [5, 1, 64, 'sigmoid', 20, 5]
+ loss: 0.3374
+ mae: 0.2698
+ rmse: 0.3528
+Configuracao: [6, 1, 32, 'sigmoid', 15, 2]
+ loss: 0.3381
+ mae: 0.2906
+ rmse: 0.3520
+Configuracao: [7, 1, 128, 'sigmoid', 30, 7]
+ loss: 0.3382
+ mae: 0.2702
+ rmse: 0.3556
+Configuracao: [6, 1, 128, 'relu', 50, 5]
+ loss: 0.3383
+ mae: 0.2722
+ rmse: 0.3541
+Configuracao: [6, 1, 64, 'sigmoid', 30, 5]
+ loss: 0.3385
+ mae: 0.2678
+ rmse: 0.3537
+Configuracao: [5, 1, 32, 'tanh', 40, 2]
+ loss: 0.3386
+ mae: 0.2791
+ rmse: 0.3531
+Configuracao: [6, 1, 128, 'sigmoid', 30, 7]
+ loss: 0.3392
+ mae: 0.2692
+ rmse: 0.3543
+Configuracao: [6, 1, 64, 'sigmoid', 20, 5]
+ loss: 0.3398
+ mae: 0.2693
+ rmse: 0.3551
+Configuracao: [6, 1, 64, 'sigmoid', 15, 5]
+ loss: 0.3399
+ mae: 0.2699
+ rmse: 0.3551
+Configuracao: [7, 1, 64, 'sigmoid', 30, 5]
+ loss: 0.3404
+ mae: 0.2704
+ rmse: 0.3582
+Configuracao: [7, 1, 64, 'relu', 15, 2]
+ loss: 0.3408
+ mae: 0.2909
+ rmse: 0.3575
+Configuracao: [6, 1, 64, 'sigmoid', 50, 5]
+ loss: 0.3408
+ mae: 0.2703
+ rmse: 0.3564
+Configuracao: [3, 1, 64, 'tanh', 30, 2]
+ loss: 0.3414
+ mae: 0.2791
+ rmse: 0.3562
+Configuracao: [3, 1, 32, 'sigmoid', 40, 2]
+ loss: 0.3414
+ mae: 0.2765
+ rmse: 0.3574
+Configuracao: [7, 1, 64, 'sigmoid', 50, 5]
+ loss: 0.3414
+ mae: 0.2703
+ rmse: 0.3595
+Configuracao: [7, 1, 64, 'sigmoid', 20, 5]
+ loss: 0.3416
+ mae: 0.2722
+ rmse: 0.3594
+Configuracao: [5, 1, 64, 'sigmoid', 50, 5]
+ loss: 0.3419
+ mae: 0.2731
+ rmse: 0.3576
+Configuracao: [7, 1, 32, 'relu', 40, 2]
+ loss: 0.3419
+ mae: 0.2828
+ rmse: 0.3594
+Configuracao: [6, 1, 128, 'tanh', 50, 5]
+ loss: 0.3419
+ mae: 0.2711
+ rmse: 0.3587
+Configuracao: [6, 1, 32, 'relu', 50, 2]
+ loss: 0.3420
+ mae: 0.2832
+ rmse: 0.3572
+Configuracao: [3, 1, 128, 'tanh', 40, 2]
+ loss: 0.3424
+ mae: 0.2814
+ rmse: 0.3572
+Configuracao: [5, 1, 64, 'relu', 15, 2]
+ loss: 0.3424
+ mae: 0.2902
+ rmse: 0.3564
+Configuracao: [3, 1, 128, 'tanh', 30, 2]
+ loss: 0.3428
+ mae: 0.2835
+ rmse: 0.3574
+Configuracao: [5, 1, 32, 'relu', 20, 2]
+ loss: 0.3428
+ mae: 0.2848
+ rmse: 0.3572
+Configuracao: [5, 1, 32, 'relu', 30, 2]
+ loss: 0.3430
+ mae: 0.2827
+ rmse: 0.3576
+Configuracao: [5, 1, 32, 'relu', 15, 2]
+ loss: 0.3431
+ mae: 0.2860
+ rmse: 0.3573
+Configuracao: [7, 1, 32, 'relu', 50, 2]
+ loss: 0.3432
+ mae: 0.2835
+ rmse: 0.3611
+Configuracao: [5, 1, 64, 'tanh', 50, 2]
+ loss: 0.3436
+ mae: 0.2845
+ rmse: 0.3583
+Configuracao: [6, 1, 32, 'tanh', 40, 2]
+ loss: 0.3436
+ mae: 0.2849
+ rmse: 0.3585
+Configuracao: [7, 1, 128, 'sigmoid', 20, 7]
+ loss: 0.3438
+ mae: 0.2514
+ rmse: 0.3641
+Configuracao: [6, 1, 32, 'tanh', 50, 2]
+ loss: 0.3441
+ mae: 0.2840
+ rmse: 0.3598
+Configuracao: [7, 1, 128, 'relu', 50, 5]
+ loss: 0.3449
+ mae: 0.2738
+ rmse: 0.3647
+Configuracao: [7, 1, 128, 'tanh', 50, 5]
+ loss: 0.3450
+ mae: 0.2735
+ rmse: 0.3647
+Configuracao: [7, 1, 32, 'tanh', 50, 2]
+ loss: 0.3453
+ mae: 0.2838
+ rmse: 0.3638
+Configuracao: [7, 1, 64, 'tanh', 50, 5]
+ loss: 0.3463
+ mae: 0.2734
+ rmse: 0.3669
+Configuracao: [5, 1, 64, 'relu', 40, 2]
+ loss: 0.3465
+ mae: 0.2861
+ rmse: 0.3615
+Configuracao: [6, 1, 64, 'sigmoid', 40, 5]
+ loss: 0.3469
+ mae: 0.2761
+ rmse: 0.3630
+Configuracao: [5, 1, 32, 'tanh', 30, 2]
+ loss: 0.3470
+ mae: 0.2865
+ rmse: 0.3618
+Configuracao: [3, 1, 128, 'sigmoid', 40, 5]
+ loss: 0.3476
+ mae: 0.2622
+ rmse: 0.3631
+Configuracao: [5, 1, 128, 'relu', 50, 2]
+ loss: 0.3477
+ mae: 0.2906
+ rmse: 0.3620
+Configuracao: [5, 1, 64, 'tanh', 15, 2]
+ loss: 0.3477
+ mae: 0.2960
+ rmse: 0.3618
+Configuracao: [6, 1, 32, 'relu', 40, 2]
+ loss: 0.3480
+ mae: 0.2880
+ rmse: 0.3637
+Configuracao: [7, 1, 64, 'sigmoid', 15, 5]
+ loss: 0.3493
+ mae: 0.2786
+ rmse: 0.3680
+Configuracao: [7, 1, 128, 'sigmoid', 40, 7]
+ loss: 0.3498
+ mae: 0.2802
+ rmse: 0.3679
+Configuracao: [5, 1, 128, 'relu', 15, 2]
+ loss: 0.3499
+ mae: 0.2993
+ rmse: 0.3636
+Configuracao: [3, 1, 128, 'sigmoid', 30, 5]
+ loss: 0.3505
+ mae: 0.2648
+ rmse: 0.3661
+Configuracao: [6, 1, 32, 'relu', 30, 2]
+ loss: 0.3505
+ mae: 0.2895
+ rmse: 0.3654
+Configuracao: [7, 1, 64, 'sigmoid', 40, 5]
+ loss: 0.3508
+ mae: 0.2791
+ rmse: 0.3697
+Configuracao: [6, 1, 64, 'relu', 50, 2]
+ loss: 0.3511
+ mae: 0.2911
+ rmse: 0.3671
+Configuracao: [7, 1, 32, 'tanh', 40, 2]
+ loss: 0.3511
+ mae: 0.2902
+ rmse: 0.3690
+Configuracao: [3, 1, 128, 'sigmoid', 15, 5]
+ loss: 0.3514
+ mae: 0.2644
+ rmse: 0.3667
+Configuracao: [3, 1, 128, 'sigmoid', 20, 5]
+ loss: 0.3516
+ mae: 0.2652
+ rmse: 0.3672
+Configuracao: [6, 1, 128, 'sigmoid', 15, 7]
+ loss: 0.3517
+ mae: 0.2793
+ rmse: 0.3673
+Configuracao: [5, 1, 128, 'relu', 20, 2]
+ loss: 0.3529
+ mae: 0.3003
+ rmse: 0.3668
+Configuracao: [6, 1, 64, 'tanh', 50, 2]
+ loss: 0.3537
+ mae: 0.2932
+ rmse: 0.3694
+Configuracao: [6, 1, 32, 'tanh', 30, 2]
+ loss: 0.3546
+ mae: 0.2937
+ rmse: 0.3694
+Configuracao: [6, 1, 128, 'relu', 15, 2]
+ loss: 0.3556
+ mae: 0.3050
+ rmse: 0.3696
+Configuracao: [7, 1, 64, 'tanh', 50, 2]
+ loss: 0.3557
+ mae: 0.2941
+ rmse: 0.3740
+Configuracao: [7, 1, 64, 'relu', 50, 2]
+ loss: 0.3557
+ mae: 0.2944
+ rmse: 0.3746
+Configuracao: [7, 1, 32, 'tanh', 30, 2]
+ loss: 0.3561
+ mae: 0.2943
+ rmse: 0.3738
+Configuracao: [7, 1, 32, 'tanh', 15, 2]
+ loss: 0.3561
+ mae: 0.3015
+ rmse: 0.3735
+Configuracao: [5, 1, 32, 'tanh', 20, 2]
+ loss: 0.3564
+ mae: 0.2946
+ rmse: 0.3712
+Configuracao: [7, 1, 32, 'relu', 30, 2]
+ loss: 0.3569
+ mae: 0.2951
+ rmse: 0.3742
+Configuracao: [5, 1, 64, 'tanh', 40, 2]
+ loss: 0.3573
+ mae: 0.2957
+ rmse: 0.3722
+Configuracao: [5, 1, 64, 'relu', 30, 2]
+ loss: 0.3592
+ mae: 0.2990
+ rmse: 0.3738
+Configuracao: [7, 1, 32, 'relu', 15, 2]
+ loss: 0.3598
+ mae: 0.3009
+ rmse: 0.3772
+Configuracao: [7, 1, 32, 'relu', 20, 2]
+ loss: 0.3598
+ mae: 0.2984
+ rmse: 0.3773
+Configuracao: [3, 1, 32, 'sigmoid', 30, 2]
+ loss: 0.3602
+ mae: 0.2928
+ rmse: 0.3762
+Configuracao: [6, 1, 128, 'relu', 50, 2]
+ loss: 0.3602
+ mae: 0.2991
+ rmse: 0.3754
+Configuracao: [7, 1, 128, 'relu', 15, 2]
+ loss: 0.3603
+ mae: 0.3067
+ rmse: 0.3775
+Configuracao: [5, 1, 128, 'sigmoid', 20, 5]
+ loss: 0.3605
+ mae: 0.2788
+ rmse: 0.3757
+Configuracao: [3, 1, 32, 'sigmoid', 50, 2]
+ loss: 0.3606
+ mae: 0.2929
+ rmse: 0.3765
+Configuracao: [6, 1, 64, 'relu', 40, 2]
+ loss: 0.3607
+ mae: 0.2988
+ rmse: 0.3757
+Configuracao: [6, 1, 32, 'relu', 20, 2]
+ loss: 0.3615
+ mae: 0.2998
+ rmse: 0.3764
+Configuracao: [5, 1, 128, 'tanh', 50, 2]
+ loss: 0.3618
+ mae: 0.3012
+ rmse: 0.3768
+Configuracao: [7, 1, 32, 'sigmoid', 15, 2]
+ loss: 0.3620
+ mae: 0.3170
+ rmse: 0.3774
+Configuracao: [5, 1, 128, 'sigmoid', 15, 5]
+ loss: 0.3622
+ mae: 0.2811
+ rmse: 0.3773
+Configuracao: [7, 1, 64, 'relu', 40, 2]
+ loss: 0.3624
+ mae: 0.2997
+ rmse: 0.3801
+Configuracao: [6, 1, 32, 'relu', 15, 2]
+ loss: 0.3631
+ mae: 0.3042
+ rmse: 0.3776
+Configuracao: [3, 1, 128, 'sigmoid', 50, 5]
+ loss: 0.3635
+ mae: 0.2793
+ rmse: 0.3799
+Configuracao: [7, 1, 64, 'tanh', 15, 2]
+ loss: 0.3636
+ mae: 0.3102
+ rmse: 0.3811
+Configuracao: [5, 1, 64, 'relu', 20, 2]
+ loss: 0.3645
+ mae: 0.3002
+ rmse: 0.3793
+Configuracao: [6, 1, 128, 'tanh', 50, 2]
+ loss: 0.3646
+ mae: 0.3026
+ rmse: 0.3798
+Configuracao: [6, 1, 64, 'tanh', 40, 2]
+ loss: 0.3650
+ mae: 0.3018
+ rmse: 0.3802
+Configuracao: [5, 1, 32, 'tanh', 15, 2]
+ loss: 0.3656
+ mae: 0.3030
+ rmse: 0.3804
+Configuracao: [6, 1, 128, 'sigmoid', 15, 5]
+ loss: 0.3664
+ mae: 0.2887
+ rmse: 0.3816
+Configuracao: [6, 1, 64, 'tanh', 15, 2]
+ loss: 0.3671
+ mae: 0.3114
+ rmse: 0.3819
+Configuracao: [7, 1, 128, 'relu', 20, 2]
+ loss: 0.3676
+ mae: 0.3130
+ rmse: 0.3850
+Configuracao: [6, 1, 64, 'relu', 30, 2]
+ loss: 0.3676
+ mae: 0.3104
+ rmse: 0.3825
+Configuracao: [5, 1, 128, 'relu', 40, 2]
+ loss: 0.3679
+ mae: 0.3047
+ rmse: 0.3827
+Configuracao: [5, 1, 128, 'tanh', 20, 2]
+ loss: 0.3687
+ mae: 0.3130
+ rmse: 0.3834
+Configuracao: [6, 1, 128, 'relu', 20, 2]
+ loss: 0.3694
+ mae: 0.3133
+ rmse: 0.3840
+Configuracao: [7, 1, 128, 'relu', 50, 2]
+ loss: 0.3694
+ mae: 0.3068
+ rmse: 0.3877
+Configuracao: [7, 1, 64, 'tanh', 40, 2]
+ loss: 0.3694
+ mae: 0.3058
+ rmse: 0.3875
+Configuracao: [7, 1, 128, 'tanh', 50, 2]
+ loss: 0.3696
+ mae: 0.3069
+ rmse: 0.3875
+Configuracao: [7, 1, 128, 'sigmoid', 20, 5]
+ loss: 0.3696
+ mae: 0.2919
+ rmse: 0.3876
+Configuracao: [5, 1, 128, 'sigmoid', 50, 2]
+ loss: 0.3700
+ mae: 0.3191
+ rmse: 0.3837
+Configuracao: [5, 1, 64, 'tanh', 30, 2]
+ loss: 0.3701
+ mae: 0.3061
+ rmse: 0.3852
+Configuracao: [6, 1, 128, 'sigmoid', 50, 7]
+ loss: 0.3703
+ mae: 0.2651
+ rmse: 0.3902
+Configuracao: [7, 1, 128, 'sigmoid', 15, 5]
+ loss: 0.3718
+ mae: 0.2938
+ rmse: 0.3901
+Configuracao: [6, 1, 128, 'sigmoid', 40, 5]
+ loss: 0.3720
+ mae: 0.2903
+ rmse: 0.3883
+Configuracao: [6, 1, 64, 'relu', 20, 2]
+ loss: 0.3720
+ mae: 0.3100
+ rmse: 0.3870
+Configuracao: [5, 1, 32, 'sigmoid', 50, 2]
+ loss: 0.3723
+ mae: 0.3054
+ rmse: 0.3893
+Configuracao: [5, 1, 128, 'sigmoid', 30, 5]
+ loss: 0.3725
+ mae: 0.2913
+ rmse: 0.3886
+Configuracao: [7, 1, 32, 'tanh', 20, 2]
+ loss: 0.3740
+ mae: 0.3100
+ rmse: 0.3920
+Configuracao: [5, 1, 128, 'sigmoid', 50, 5]
+ loss: 0.3748
+ mae: 0.2929
+ rmse: 0.3912
+Configuracao: [7, 1, 128, 'sigmoid', 50, 5]
+ loss: 0.3753
+ mae: 0.2939
+ rmse: 0.3945
+Configuracao: [6, 1, 32, 'tanh', 20, 2]
+ loss: 0.3760
+ mae: 0.3114
+ rmse: 0.3912
+Configuracao: [5, 1, 128, 'tanh', 40, 2]
+ loss: 0.3766
+ mae: 0.3125
+ rmse: 0.3917
+Configuracao: [5, 1, 64, 'tanh', 20, 2]
+ loss: 0.3766
+ mae: 0.3136
+ rmse: 0.3917
+Configuracao: [7, 1, 64, 'relu', 20, 2]
+ loss: 0.3787
+ mae: 0.3157
+ rmse: 0.3966
+Configuracao: [6, 1, 128, 'sigmoid', 20, 5]
+ loss: 0.3791
+ mae: 0.2962
+ rmse: 0.3953
+Configuracao: [3, 1, 32, 'sigmoid', 15, 2]
+ loss: 0.3797
+ mae: 0.3072
+ rmse: 0.3963
+Configuracao: [6, 1, 128, 'tanh', 15, 2]
+ loss: 0.3800
+ mae: 0.3232
+ rmse: 0.3949
+Configuracao: [7, 1, 64, 'relu', 30, 2]
+ loss: 0.3801
+ mae: 0.3123
+ rmse: 0.3981
+Configuracao: [5, 1, 128, 'sigmoid', 40, 5]
+ loss: 0.3803
+ mae: 0.2976
+ rmse: 0.3968
+Configuracao: [6, 1, 128, 'sigmoid', 30, 5]
+ loss: 0.3806
+ mae: 0.2958
+ rmse: 0.3973
+Configuracao: [7, 1, 128, 'sigmoid', 30, 5]
+ loss: 0.3823
+ mae: 0.2981
+ rmse: 0.4017
+Configuracao: [6, 1, 64, 'tanh', 30, 2]
+ loss: 0.3826
+ mae: 0.3142
+ rmse: 0.3978
+Configuracao: [5, 1, 128, 'tanh', 30, 2]
+ loss: 0.3827
+ mae: 0.3186
+ rmse: 0.3979
+Configuracao: [7, 1, 128, 'sigmoid', 40, 5]
+ loss: 0.3829
+ mae: 0.2981
+ rmse: 0.4024
+Configuracao: [6, 1, 32, 'sigmoid', 50, 2]
+ loss: 0.3839
+ mae: 0.3154
+ rmse: 0.4005
+Configuracao: [5, 1, 128, 'tanh', 15, 2]
+ loss: 0.3840
+ mae: 0.3242
+ rmse: 0.3990
+Configuracao: [7, 1, 64, 'tanh', 30, 2]
+ loss: 0.3841
+ mae: 0.3168
+ rmse: 0.4022
+Configuracao: [5, 1, 128, 'relu', 30, 2]
+ loss: 0.3843
+ mae: 0.3180
+ rmse: 0.3993
+Configuracao: [7, 1, 128, 'relu', 40, 2]
+ loss: 0.3854
+ mae: 0.3178
+ rmse: 0.4037
+Configuracao: [3, 1, 32, 'sigmoid', 20, 2]
+ loss: 0.3869
+ mae: 0.3138
+ rmse: 0.4032
+Configuracao: [5, 1, 128, 'sigmoid', 15, 2]
+ loss: 0.3898
+ mae: 0.3344
+ rmse: 0.4046
+Configuracao: [6, 1, 128, 'relu', 30, 2]
+ loss: 0.3899
+ mae: 0.3233
+ rmse: 0.4053
+Configuracao: [7, 1, 32, 'sigmoid', 50, 2]
+ loss: 0.3916
+ mae: 0.3232
+ rmse: 0.4107
+Configuracao: [6, 1, 128, 'sigmoid', 50, 5]
+ loss: 0.3916
+ mae: 0.3051
+ rmse: 0.4089
+Configuracao: [7, 1, 64, 'tanh', 20, 2]
+ loss: 0.3919
+ mae: 0.3271
+ rmse: 0.4103
+Configuracao: [7, 1, 128, 'tanh', 40, 2]
+ loss: 0.3920
+ mae: 0.3224
+ rmse: 0.4104
+Configuracao: [5, 1, 32, 'sigmoid', 30, 2]
+ loss: 0.3923
+ mae: 0.3226
+ rmse: 0.4085
+Configuracao: [5, 1, 32, 'sigmoid', 20, 2]
+ loss: 0.3931
+ mae: 0.3232
+ rmse: 0.4093
+Configuracao: [6, 1, 128, 'tanh', 40, 2]
+ loss: 0.3933
+ mae: 0.3235
+ rmse: 0.4087
+Configuracao: [7, 1, 32, 'sigmoid', 40, 2]
+ loss: 0.3939
+ mae: 0.3239
+ rmse: 0.4134
+Configuracao: [6, 1, 32, 'sigmoid', 40, 2]
+ loss: 0.3944
+ mae: 0.3238
+ rmse: 0.4108
+Configuracao: [6, 1, 128, 'relu', 40, 2]
+ loss: 0.3950
+ mae: 0.3242
+ rmse: 0.4104
+Configuracao: [5, 1, 128, 'sigmoid', 40, 2]
+ loss: 0.3967
+ mae: 0.3375
+ rmse: 0.4117
+Configuracao: [7, 1, 128, 'relu', 30, 2]
+ loss: 0.3975
+ mae: 0.3327
+ rmse: 0.4159
+Configuracao: [6, 1, 64, 'tanh', 20, 2]
+ loss: 0.3991
+ mae: 0.3295
+ rmse: 0.4148
+Configuracao: [7, 1, 128, 'tanh', 15, 2]
+ loss: 0.4039
+ mae: 0.3387
+ rmse: 0.4225
+Configuracao: [5, 1, 64, 'sigmoid', 30, 2]
+ loss: 0.4057
+ mae: 0.3430
+ rmse: 0.4213
+Configuracao: [6, 1, 128, 'tanh', 30, 2]
+ loss: 0.4060
+ mae: 0.3353
+ rmse: 0.4217
+Configuracao: [5, 1, 128, 'sigmoid', 30, 2]
+ loss: 0.4063
+ mae: 0.3448
+ rmse: 0.4216
+Configuracao: [5, 1, 32, 'sigmoid', 40, 2]
+ loss: 0.4075
+ mae: 0.3344
+ rmse: 0.4237
+Configuracao: [5, 1, 128, 'sigmoid', 20, 2]
+ loss: 0.4101
+ mae: 0.3476
+ rmse: 0.4257
+Configuracao: [5, 1, 32, 'sigmoid', 15, 2]
+ loss: 0.4121
+ mae: 0.3374
+ rmse: 0.4285
+Configuracao: [6, 1, 128, 'tanh', 20, 2]
+ loss: 0.4140
+ mae: 0.3419
+ rmse: 0.4300
+Configuracao: [7, 1, 128, 'tanh', 30, 2]
+ loss: 0.4144
+ mae: 0.3409
+ rmse: 0.4334
+Configuracao: [7, 1, 128, 'sigmoid', 15, 2]
+ loss: 0.4173
+ mae: 0.3562
+ rmse: 0.4359
+Configuracao: [7, 1, 128, 'sigmoid', 20, 2]
+ loss: 0.4185
+ mae: 0.3569
+ rmse: 0.4371
+Configuracao: [5, 1, 64, 'sigmoid', 15, 2]
+ loss: 0.4191
+ mae: 0.3533
+ rmse: 0.4351
+Configuracao: [7, 1, 128, 'tanh', 20, 2]
+ loss: 0.4211
+ mae: 0.3482
+ rmse: 0.4403
+Configuracao: [6, 1, 32, 'sigmoid', 30, 2]
+ loss: 0.4212
+ mae: 0.3433
+ rmse: 0.4377
+Configuracao: [7, 1, 128, 'sigmoid', 40, 2]
+ loss: 0.4220
+ mae: 0.3594
+ rmse: 0.4407
+Configuracao: [6, 1, 32, 'sigmoid', 20, 2]
+ loss: 0.4239
+ mae: 0.3451
+ rmse: 0.4404
+Configuracao: [7, 1, 32, 'sigmoid', 20, 2]
+ loss: 0.4247
+ mae: 0.3468
+ rmse: 0.4443
+Configuracao: [7, 1, 64, 'sigmoid', 15, 2]
+ loss: 0.4262
+ mae: 0.3595
+ rmse: 0.4453
+Configuracao: [6, 1, 128, 'sigmoid', 50, 2]
+ loss: 0.4276
+ mae: 0.3590
+ rmse: 0.4438
+Configuracao: [3, 1, 64, 'sigmoid', 30, 2]
+ loss: 0.4289
+ mae: 0.3544
+ rmse: 0.4457
+Configuracao: [7, 1, 64, 'sigmoid', 20, 2]
+ loss: 0.4292
+ mae: 0.3613
+ rmse: 0.4485
+Configuracao: [7, 1, 128, 'sigmoid', 50, 2]
+ loss: 0.4313
+ mae: 0.3634
+ rmse: 0.4506
+Configuracao: [7, 1, 32, 'sigmoid', 30, 2]
+ loss: 0.4332
+ mae: 0.3510
+ rmse: 0.4506
+Configuracao: [6, 1, 128, 'sigmoid', 40, 2]
+ loss: 0.4369
+ mae: 0.3654
+ rmse: 0.4534
+Configuracao: [5, 1, 64, 'sigmoid', 50, 2]
+ loss: 0.4371
+ mae: 0.3656
+ rmse: 0.4536
+Configuracao: [6, 1, 128, 'sigmoid', 20, 2]
+ loss: 0.4387
+ mae: 0.3670
+ rmse: 0.4553
+Configuracao: [5, 1, 64, 'sigmoid', 20, 2]
+ loss: 0.4389
+ mae: 0.3673
+ rmse: 0.4556
+Configuracao: [6, 1, 128, 'sigmoid', 15, 2]
+ loss: 0.4391
+ mae: 0.3671
+ rmse: 0.4557
+Configuracao: [7, 1, 128, 'sigmoid', 30, 2]
+ loss: 0.4403
+ mae: 0.3697
+ rmse: 0.4599
+Configuracao: [6, 1, 128, 'sigmoid', 30, 2]
+ loss: 0.4436
+ mae: 0.3698
+ rmse: 0.4603
+Configuracao: [5, 1, 64, 'sigmoid', 40, 2]
+ loss: 0.4460
+ mae: 0.3715
+ rmse: 0.4629
+Configuracao: [6, 1, 64, 'sigmoid', 20, 2]
+ loss: 0.4463
+ mae: 0.3706
+ rmse: 0.4632
+Configuracao: [7, 1, 64, 'sigmoid', 30, 2]
+ loss: 0.4466
+ mae: 0.3730
+ rmse: 0.4665
+Configuracao: [7, 1, 64, 'sigmoid', 40, 2]
+ loss: 0.4482
+ mae: 0.3738
+ rmse: 0.4681
+Configuracao: [6, 1, 64, 'sigmoid', 30, 2]
+ loss: 0.4515
+ mae: 0.3742
+ rmse: 0.4685
+Configuracao: [7, 1, 64, 'sigmoid', 50, 2]
+ loss: 0.4515
+ mae: 0.3757
+ rmse: 0.4715
+Configuracao: [6, 1, 64, 'sigmoid', 15, 2]
+ loss: 0.4528
+ mae: 0.3748
+ rmse: 0.4699
+Configuracao: [6, 1, 64, 'sigmoid', 40, 2]
+ loss: 0.4545
+ mae: 0.3754
+ rmse: 0.4716
+Configuracao: [6, 1, 64, 'sigmoid', 50, 2]
+ loss: 0.4693
+ mae: 0.3809
