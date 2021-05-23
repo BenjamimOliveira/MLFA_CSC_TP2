@@ -82,6 +82,19 @@ def missing_values(method, missing_method, df):
         df = df.interpolate(method='linear', limit_direction='forward').astype(int)
     return df
 
+
+'''
+Remove Outliers
+'''
+def remove_outlier(df_uni):
+    q1 = df_uni['Incidents'].quantile(0.25)
+    q3 = df_uni['Incidents'].quantile(0.75)
+    iqr = q3-q1 #Interquartile range
+    fence_low  = q1-1.5*iqr
+    fence_high = q3+1.5*iqr
+    df_out = df_uni.loc[(df_uni['Incidents'] > fence_low) & (df_uni['Incidents'] < fence_high)]
+    return df_out
+
 '''
 Normalize the data to the range [-1, 1]
 '''
