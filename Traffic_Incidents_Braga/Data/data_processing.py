@@ -67,13 +67,18 @@ def to_daily(method, df):
 '''
 Deal with missing values in the data
 '''
-def missing_values(method, df):
-    df = df.replace(0, np.nan) # replace instances with 0 incidents with NaN
-    if method == 'dropout':
+def missing_values(method, missing_method, df):
+    if missing_method == 'dropout':
+        df = df.replace(0, np.nan)        # replace instances with 0 incidents with NaN
         df = df.dropna(how='all', axis=0) # remove all instances with NaN
-    elif method == 'masking':
+    elif missing_method == 'masking':
         df = df.replace(0, -99)
-    elif method == 'interpolate':
+        if method == 'multivariate':
+            df.loc[df.Incidents == -99, 'length_in_meters'] = -99
+            df.loc[df.Incidents == -99, 'latitude'] = -99
+            df.loc[df.Incidents == -99, 'longitude'] = -99
+    elif missing_method == 'interpolate':
+        df = df.replace(0, np.nan) # replace instances with 0 incidents with NaN
         df = df.interpolate(method='linear', limit_direction='forward').astype(int)
     return df
 

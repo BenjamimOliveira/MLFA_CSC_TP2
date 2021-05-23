@@ -106,7 +106,7 @@ def grid_search(df, method, missing_method, configs, features):
         if missing_method == 'dropout':
             df_scores.to_csv('./Scores/cnn_multivariate_dropout.csv')
         elif missing_method == 'masking':
-            df_scores.to_csv('./Scores/cnn_univariate_masking.csv')
+            df_scores.to_csv('./Scores/cnn_multivariate_masking.csv')
         elif missing_method == 'interpolate':
             df_scores.to_csv('./Scores/cnn_multivariate_interpolate.csv')
     return scores
