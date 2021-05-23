@@ -1,5 +1,6 @@
 from typing import Sequence
 import numpy as np
+import pandas as pd
 import tensorflow as tf
 import matplotlib.pyplot as plt
 from sklearn.model_selection import learning_curve
@@ -79,18 +80,35 @@ def call_model(df, config, features):
     print('loss:', loss)
     print('mae:', loss_mae)
     print('rmse:', loss_rmse)
-    return model, (str(config), loss_mae, loss_rmse)
+    config = tuple(map(str, config))
+    score = config + (loss_mae, loss_rmse)
+    return model, score
 
 '''
 Train a model for each configuration and sort the configurations by performance
 '''
-def grid_search(df, configs, features):
+def grid_search(df, method, missing_method, configs, features):
     # evaluate configs
     scores = []
     for config in configs:
         scores.append(call_model(df, config, features)[1])
     # sort configs by error in ascending order
     scores.sort(key=lambda tup: tup[1])
+    df_scores = pd.DataFrame(scores, columns = ['timesteps', 'epochs', 'batch_size', 'filters', 'kernel_size', 'pool_size', 'loss_mae', 'loss_rmse'])
+    if method == 'univariate':
+        if missing_method == 'dropout':
+            df_scores.to_csv('./Scores/cnn_univariate_dropout.csv')
+        elif missing_method == 'masking':
+            df_scores.to_csv('./Scores/cnn_univariate_masking.csv')
+        elif missing_method == 'interpolate':
+            df_scores.to_csv('./Scores/cnn_univariate_interpolate.csv')
+    elif method == 'multivariate':
+        if missing_method == 'dropout':
+            df_scores.to_csv('./Scores/cnn_multivariate_dropout.csv')
+        elif missing_method == 'masking':
+            df_scores.to_csv('./Scores/cnn_univariate_masking.csv')
+        elif missing_method == 'interpolate':
+            df_scores.to_csv('./Scores/cnn_multivariate_interpolate.csv')
     return scores
 
 '''

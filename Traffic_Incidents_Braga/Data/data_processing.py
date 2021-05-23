@@ -43,7 +43,7 @@ def to_multivariate(df):
 '''
 Prepare data to have the number of daily incidents
 '''
-def to_daily_uni_multi(method, df):
+def to_daily(method, df):
     if method == 'univariate':
         df_uni = to_univariate(df)
         df_uni['incident_date'] = df_uni['incident_date'].str[:10]                # delete the last 10 characters
@@ -60,19 +60,21 @@ def to_daily_uni_multi(method, df):
          df_uni.index = pd.to_datetime(df_uni.index)                               # convert the date in index from string to Date type
          daily_groups = df_uni.resample('D')                                       # sum groupy by day
          daily_data_1 = daily_groups['Incidents'].sum()
-         daily_data_2 = daily_groups['length_in_meters', 'latitude','longitude'].median() # Median by date
-         daily_data = pd.concat([daily_data_1, daily_data_2], axis=1) # Concatenate incident sum, length_in_temers, latitude, longitude median
+         daily_data_2 = daily_groups['length_in_meters', 'latitude','longitude'].median() # median by date
+         daily_data = pd.concat([daily_data_1, daily_data_2], axis=1) # concatenate the incident sum, length_in_temers, latitude and longitude median
     return daily_data
 
 '''
 Deal with missing values in the data
 '''
-def missing_values(df):
-    df = df.replace(0, np.nan)        # replace instances with 0 incidents with NaN
-    df = df.dropna(how='all', axis=0) # remove all instances with NaN
-    #Executar Interpolate (comentar as 2 primeiras linhas e descomentar as 2 ultimas)
-    #df = df.replace(0, np.nan)
-    #df = df.interpolate(method='linear', limit_direction='forward').astype(int)
+def missing_values(method, df):
+    df = df.replace(0, np.nan) # replace instances with 0 incidents with NaN
+    if method == 'dropout':
+        df = df.dropna(how='all', axis=0) # remove all instances with NaN
+    elif method == 'masking':
+        df = df.replace(0, -99)
+    elif method == 'interpolate':
+        df = df.interpolate(method='linear', limit_direction='forward').astype(int)
     return df
 
 '''
